@@ -26,7 +26,7 @@
 | **[📊 API 实时状态看板](https://kkwang4444.github.io/api-status/)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/api-status?style=flat-square&color=blue) | 572 个 AI 模型全球连通性监控 |
 | **[📖 AI 中转站指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-proxy-china-guide?style=flat-square&color=green) | 选型对比 · 合规方案 · 接入代码 |
 | **[📈 稳定性追踪器](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker?style=flat-square&color=orange) | Claude 4.7 / GPT 5.5 / DeepSeek V4 可用性对比 |
-| **[🔧 国内直连方案](https://github.com/KKWANG4444/ai-api-china)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-china?style=flat-square&color=purple) | 2026 国内直连 · 接入教程 · 踩坑记录 |
+| **[🔧 国内直连方案](https://github.com/KKWANG4444/ai-api-proxy-china)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-proxy-china?style=flat-square&color=purple) | 2026 国内直连 · 接入教程 · 踩坑记录 |
 | **[🚀 OpenClaw 一键部署](https://www.aifast.club/openclaw)** | — | 你的专属 AI 智能体，无需服务器经验 |
 
 </div>
