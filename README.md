@@ -106,6 +106,8 @@
   <i>一个 Key · 572 个模型 · 国内直连</i>
   <br>
   <a href="https://www.aifast.club">www.aifast.club</a>
-  <br><br>
+  <br>
   <img src="https://komarev.com/ghpvc/?username=KKWANG4444&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views">
 </p>
+
+> ⭐ **如果我的项目对你有帮助，去仓库点个 Star 就是最大的支持 🙏**
