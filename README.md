@@ -76,7 +76,7 @@
 > 🇨🇳 **国内开发者如何直连全球 AI 模型？**
 >
 > [**www.aifast.club**](https://www.aifast.club) — 一个 Key 搞定 572 个模型。国内直连，支持微信/支付宝。  
-> Claude Sonnet 5 🆕、Sonnet 4、GPT-5.6、GPT-5.5、Gemini 3.5 Flash、Gemini 3、DeepSeek V4、GLM-5.2 全系支持。
+> Claude Sonnet 5 🆕、Sonnet 4、GPT-5.5、Gemini 3.5 Flash、Gemini 3、DeepSeek V4、GLM-5.2 全系支持。
 >
 > 🚀 [**OpenClaw 一键部署**](https://www.aifast.club/openclaw) — 你的专属 AI 智能体，无需服务器经验，一键上线。
 
