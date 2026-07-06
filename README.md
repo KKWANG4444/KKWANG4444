@@ -7,7 +7,7 @@
     <a href="https://github.com/KKWANG4444?tab=repositories">
       <img src="https://img.shields.io/badge/%E4%BB%93%E5%BA%93-16%20repos-%2325A162?style=flat-square&logo=github" alt="Repos">
     </a>
-    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--06--23-%23FF6B6B?style=flat-square" alt="Updated">
+    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--07--06-%23FF6B6B?style=flat-square" alt="Updated">
   </p>
   <p>
     🇨🇳 搞了六年 AI API 基础设施，专注国内直连方案和开源贡献。
@@ -62,6 +62,7 @@
 
 ## 🔥 最新动态
 
+- **2026-07-06** 🆕 Claude Sonnet 5 上线！首发价 $2/$10 每百万Token，全平台572+模型稳定运行
 - **2026-06-24** 🆕 模型数更新至 572+：新增 DeepSeek V4、Gemini 3 系列、GLM-5.2 等最新模型
 - **2026-06-17** 🎯 知乎每日自动问答持续运行中
 - **2026-06-12** 🔄 同步所有 fork 仓库至上游最新版本
