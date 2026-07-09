@@ -62,6 +62,7 @@
 
 ## 🔥 最新动态
 
+- **2026-07-08** 🆕 Grok 4.5 上线！SpaceXAI 最新旗舰，500K 上下文，$2/$6 每百万Token
 - **2026-07-06** 🆕 Claude Sonnet 5 上线！首发价 $2/$10 每百万Token，全平台572+模型稳定运行
 - **2026-06-24** 🆕 模型数更新至 572+：新增 DeepSeek V4、Gemini 3 系列、GLM-5.2 等最新模型
 - **2026-06-17** 🎯 知乎每日自动问答持续运行中
@@ -77,7 +78,7 @@
 > 🇨🇳 **国内开发者如何直连全球 AI 模型？**
 >
 > [**www.aifast.club**](https://www.aifast.club) — 一个 Key 搞定 572 个模型。国内直连，支持微信/支付宝。  
-> Claude Sonnet 5 🆕、Sonnet 4、GPT-5.5、Gemini 3.5 Flash、Gemini 3、DeepSeek V4、GLM-5.2 全系支持。
+> Claude Sonnet 5 🆕、Sonnet 4、GPT-5.5、Gemini 3.5 Flash、Gemini 3、DeepSeek V4、Grok 4.5 🆕、GLM-5.2 全系支持。
 >
 > 🚀 [**OpenClaw 一键部署**](https://www.aifast.club/openclaw) — 你的专属 AI 智能体，无需服务器经验，一键上线。
 
