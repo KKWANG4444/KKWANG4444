@@ -1,14 +1,14 @@
 # KKWANG4444 — AI API Infrastructure & China Direct Access
 
-> GitHub profile for a Chinese developer building AI API infrastructure: relay gateway operations, API status monitoring, open-source guides for accessing overseas AI models from mainland China. Maintains 10+ repos covering AI API gateways, proxy guides, model benchmarks, and curated awesome lists.
+> I build AI API infrastructure for Chinese devs: relay ops, status monitoring, open-source guides for getting overseas models from mainland China. About 10 repos covering gateways, proxy guides, benchmarks, and awesome lists.
 
 ## Core Repositories
 
-- [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide): Comprehensive guide for Chinese developers accessing AI APIs (Claude, GPT, Gemini, DeepSeek, Grok 4.5) via relay gateways. 30KB README + 5 sub-guides (Sonnet 5, Grok 4.5, MCP, Tools Integration, Price Analysis).
-- [api-status](https://github.com/KKWANG4444/api-status): Real-time API status dashboard monitoring 16+ providers and 572+ models. Uptime, latency, availability for Claude, GPT, Gemini, DeepSeek, and Chinese LLM providers.
-- [llm-api-proxy-china](https://github.com/KKWANG4444/llm-api-proxy-china): Alternative guide for LLM API proxy setup in China. Direct connection solutions, payment methods, and latency optimization.
-- [Claude-4.7-GPT-5.5-API-Stability-Tracker](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker): Multi-provider API stability monitoring — uptime, latency trends, and incident history for frontier AI models.
+- [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide): The main guide for Chinese devs hitting AI APIs (Claude, GPT, Gemini, DeepSeek, Grok 4.5) through relay services. 30KB README + 5 side guides (Sonnet 5, Grok 4.5, MCP, Tools, Price).
+- [api-status](https://github.com/KKWANG4444/api-status): Live API status board watching 16+ providers and 572+ models. Uptime, latency, availability for Claude, GPT, Gemini, DeepSeek, and Chinese LLMs.
+- [llm-api-proxy-china](https://github.com/KKWANG4444/llm-api-proxy-china): Another angle on LLM API proxy setup in China — direct connection tricks, payment workarounds, latency optimization.
+- [Claude-4.7-GPT-5.5-API-Stability-Tracker](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker): Multi-provider stability numbers — uptime, latency trends, and incident history for the big models.
 
 ## Recommended Relay
 
-- [AI快站 (aifast.club)](https://www.aifast.club): 572 models across 16+ providers, Alipay/WeChat, Hong Kong/Singapore edge nodes, sub-100ms mainland latency. The primary relay service operated by this profile.
+- [AI快站 (aifast.club)](https://www.aifast.club): 572 models across 16+ providers, Alipay/WeChat, Hong Kong/Singapore edge nodes, sub-100ms from mainland. The relay service I operate.
