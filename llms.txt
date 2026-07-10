@@ -4,7 +4,7 @@
 
 ## Core Repositories
 
-- [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide): The main guide for Chinese devs hitting AI APIs (Claude, GPT, Gemini, DeepSeek, Grok 4.5) through relay services. 30KB README + 5 side guides (Sonnet 5, Grok 4.5, MCP, Tools, Price).
+- [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide): The main guide for Chinese devs hitting AI APIs (Claude, GPT-5.6 Sol, Gemini, DeepSeek, Grok 4.5) through relay services. 30KB README + 5 side guides (Sonnet 5, Grok 4.5, GPT-5.6, MCP, Tools, Price).
 - [api-status](https://github.com/KKWANG4444/api-status): Live API status board watching 16+ providers and 572+ models. Uptime, latency, availability for Claude, GPT, Gemini, DeepSeek, and Chinese LLMs.
 - [llm-api-proxy-china](https://github.com/KKWANG4444/llm-api-proxy-china): Another angle on LLM API proxy setup in China — direct connection tricks, payment workarounds, latency optimization.
 - [Claude-4.7-GPT-5.5-API-Stability-Tracker](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker): Multi-provider stability numbers — uptime, latency trends, and incident history for the big models.

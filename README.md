@@ -62,6 +62,7 @@
 
 ## 🔥 最新动态
 
+- **2026-07-09** 🆕 GPT-5.6 Sol/Terra/Luna 全系列上线！OpenAI 最新旗舰 Sol🌞 编码/科学能力拉满
 - **2026-07-08** 🆕 Grok 4.5 上线！SpaceXAI 最新旗舰，500K 上下文，编程/Agent能力顶尖
 - **2026-07-06** 🆕 Claude Sonnet 5 上线！最 Agentic Sonnet，全平台572+模型稳定运行
 - **2026-06-24** 🆕 模型数更新至 572+：新增 DeepSeek V4、Gemini 3 系列、GLM-5.2 等最新模型
