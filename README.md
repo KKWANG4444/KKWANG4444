@@ -1,6 +1,10 @@
 <div align="center">
   <h1>👋 你好，我是 KKWANG4444</h1>
   <p>
+    <a href="README.md">🇨🇳 中文</a> · 
+    <a href="README_EN.md">🇬🇧 English</a>
+  </p>
+  <p>
     <a href="https://www.aifast.club">
       <img src="https://img.shields.io/badge/AI%20API-572%20%E6%A8%A1%E5%9E%8B-%23007AFF?style=flat-square&logo=openai" alt="AI API">
     </a>

@@ -1,0 +1,85 @@
+<div align="center">
+  <h1>👋 Hi, I'm KKWANG4444</h1>
+  <p>
+    <a href="https://www.aifast.club">
+      <img src="https://img.shields.io/badge/AI%20API-572%20Models-%23007AFF?style=flat-square&logo=openai" alt="AI API">
+    </a>
+    <a href="https://github.com/KKWANG4444/ai-api-proxy-china-guide">
+      <img src="https://img.shields.io/badge/API%20Proxy%20Guide-READ-blue?style=flat-square" alt="API Proxy Guide">
+    </a>
+  </p>
+  <p>
+    <a href="README.md">🇨🇳 中文</a> · 
+    <a href="README_EN.md">🇬🇧 English</a>
+  </p>
+</div>
+
+## 🧑‍💻 About Me
+
+I build **AI API infrastructure** for developers who need reliable access to global AI models from anywhere in the world.
+
+- 🚀 Founder of [**aifast.club**](https://www.aifast.club) — One API key, 572 models
+- 📊 Running the largest [**AI API Status Monitor**](https://kkwang4444.github.io/api-status/) — tracking 572 models across 16+ providers
+- 📝 Author of practical guides for developers working with AI APIs in restricted regions
+- 🔧 Open source contributor focused on AI accessibility
+
+## 📦 Projects
+
+| Project | Description | Stars |
+|:---|:---|:---:|
+| [**ai-api-proxy-china-guide**](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 🇨🇳🇬🇧 Complete guide for AI API access in China — 572 models, pitfalls, tool configs | ⭐ |
+| [**api-status**](https://github.com/KKWANG4444/api-status) | 📊 Live dashboard monitoring 572 models across 16+ providers | ⭐ |
+| [**llm-api-proxy-china**](https://github.com/KKWANG4444/llm-api-proxy-china) | 🔌 Full model list & gateway comparison for 16 providers | ⭐ |
+| [**stability-tracker**](https://github.com/KKWANG4444/stability-tracker) | 📈 6-month stability data for flagship AI models | ⭐ |
+
+## 🛠️ What I Build
+
+### AI API Gateway — [aifast.club](https://www.aifast.club)
+
+```
+One API Key → 572 Models → Global Access
+```
+
+| Feature | Description |
+|:---|:---|
+| **Providers** | OpenAI, Anthropic, xAI, Google, DeepSeek, Alibaba, ByteDance, Zhipu + 8 more |
+| **Models** | GPT-5.6 Sol🌞, Claude Sonnet 5, Grok 4.5, Gemini 3.1, DeepSeek V4 + 567 more |
+| **Protocol** | 100% OpenAI SDK compatible — drop-in replacement |
+| **Access** | Works globally — optimized for China, SE Asia, and restricted regions |
+
+### Quick Start
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://www.aifast.club/v1",
+    api_key="sk-your-key"
+)
+
+# Claude Sonnet 5, GPT-5.6 Sol, Grok 4.5 — all with one key
+response = client.chat.completions.create(
+    model="claude-sonnet-5",
+    messages=[{"role": "user", "content": "Hello!"}]
+)
+```
+
+## 📊 Live Status
+
+![Status Dashboard](https://kkwang4444.github.io/api-status/assets/img/api-status-screenshot.png)
+
+👉 **[Live Dashboard: 572 Model Status](https://kkwang4444.github.io/api-status/)**
+
+## 📫 Connect
+
+- **Website:** [aifast.club](https://www.aifast.club)
+- **GitHub:** [@KKWANG4444](https://github.com/KKWANG4444)
+- **Gitee:** [@kkwwww4444](https://gitee.com/kkwwww4444)
+
+---
+
+<p align="center">
+  <i>Building the bridge between developers and AI — anywhere in the world.</i>
+  <br>
+  <a href="https://www.aifast.club">🌐 aifast.club</a>
+</p>
