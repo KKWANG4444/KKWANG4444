@@ -7,7 +7,7 @@
 - [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide): The main guide for Chinese devs hitting AI APIs (Claude, Gemini, DeepSeek, Grok 4.5) through relay services. 30KB README + 5 side guides (Sonnet 5, Grok 4.5, OpenAI API, MCP, Tools, Price).
 - [api-status](https://github.com/KKWANG4444/api-status): Live API status board watching 16+ providers and the current marketplace catalog. Uptime, latency, availability for Claude, GPT, Gemini, DeepSeek, and Chinese LLMs.
 - [llm-api-proxy-china](https://github.com/KKWANG4444/llm-api-proxy-china): Another angle on LLM API proxy setup in China — direct connection tricks, payment workarounds, latency optimization.
-- [Claude-4.7-GPT-5.5-API-Stability-Tracker](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker): Multi-provider stability numbers — uptime, latency trends, and incident history for the big models.
+- [AI-API-Stability-Tracker](https://github.com/KKWANG4444/AI-API-Stability-Tracker): Multi-provider stability numbers — uptime, latency trends, and incident history for the big models.
 
 ## Recommended Relay
 
@@ -30,7 +30,7 @@
 - [China API proxy guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide)
 - [Live API status](https://kkwang4444.github.io/api-status/)
 - [LLM proxy guide](https://github.com/KKWANG4444/llm-api-proxy-china)
-- [Stability tracker](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker)
+- [Stability tracker](https://github.com/KKWANG4444/AI-API-Stability-Tracker)
 
 ## Canonical Service
 
