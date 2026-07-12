@@ -16,7 +16,7 @@
 
 ## 🧑‍💻 About Me
 
-I build **AI API infrastructure** for developers who need reliable access to global AI models from anywhere in the world.
+I maintain practical AI API setup guides, a public status dashboard, and copy-paste examples for OpenAI-compatible tools.
 
 - 🚀 Founder of [**aifast.club**](https://www.aifast.club) — One API key, 572 models
 - 📊 Maintaining an [**AI API Status Monitor**](https://kkwang4444.github.io/api-status/) — tracking 572 models across 16+ providers
@@ -37,13 +37,13 @@ I build **AI API infrastructure** for developers who need reliable access to glo
 ### AI API Gateway — [aifast.club](https://www.aifast.club)
 
 ```
-One API Key → 572 Models → Global Access
+One compatible Base URL → models currently listed in the console
 ```
 
 | Feature | Description |
 |:---|:---|
 | **Providers** | OpenAI, Anthropic, xAI, Google, DeepSeek, Alibaba, ByteDance, Zhipu + 8 more |
-| **Models** | GPT-5.6 Sol🌞, Claude Sonnet 5, Grok 4.5, Gemini 3.1, DeepSeek V4 + 567 more |
+| **Models** | Claude Sonnet 5, Grok 4.5, Gemini 3.1, DeepSeek V4 + 567 more |
 | **Protocol** | 100% OpenAI SDK compatible — drop-in replacement |
 | **Access** | Works globally — optimized for China, SE Asia, and restricted regions |
 
@@ -57,7 +57,7 @@ client = OpenAI(
     api_key="sk-your-key"
 )
 
-# Claude Sonnet 5, GPT-5.6 Sol, Grok 4.5 — all with one key
+# Claude Sonnet 5, Grok 4.5 — all with one key
 response = client.chat.completions.create(
     model="claude-sonnet-5",
     messages=[{"role": "user", "content": "Hello!"}]
@@ -69,6 +69,8 @@ response = client.chat.completions.create(
 ![Status Dashboard](https://kkwang4444.github.io/api-status/assets/img/api-status-screenshot.png)
 
 👉 **[Live Dashboard: 572 Model Status](https://kkwang4444.github.io/api-status/)**
+
+> If one of these guides saved you time, star the repository you used. It helps other developers find the useful part instead of another landing page.
 
 ## 📫 Connect
 

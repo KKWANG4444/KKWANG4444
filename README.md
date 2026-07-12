@@ -14,13 +14,13 @@
     <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--07--09-%23FF6B6B?style=flat-square" alt="Updated">
   </p>
   <p>
-    🇨🇳 搞了六年 AI API 基础设施，专注国内直连方案和开源贡献。
+    维护 AI API 接入指南、状态看板和工具配置示例。代码能复制，结论会注明边界。
   </p>
 </div>
 
 ---
 
-> 模型范围、价格和可用性以 [AI快站控制台](https://www.aifast.club) 当前展示为准。
+> 第一次来？先看 [3分钟接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide#六3分钟接入教程)，再用 [状态看板](https://kkwang4444.github.io/api-status/) 检查目标模型。
 
 ---
 
@@ -55,7 +55,7 @@
 
 ## 🔥 最新动态
 
-- **2026-07-09** 🆕 GPT-5.6 Sol/Terra/Luna 全系列上线！OpenAI 最新旗舰 Sol🌞 编码/科学能力拉满
+- **2026-07-09** 🆕 模型列表与接入文档已整理，当前可用模型以平台控制台为准
 - **2026-07-08** 🆕 Grok 4.5 上线！SpaceXAI 最新旗舰，500K 上下文，编程/Agent能力顶尖
 - **2026-07-06** 🆕 Claude Sonnet 5 上线！最 Agentic Sonnet，全平台572+模型稳定运行
 - **2026-06-24** 🆕 模型数更新至 572+：新增 DeepSeek V4、Gemini 3 系列、GLM-5.2 等最新模型
