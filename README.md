@@ -6,7 +6,7 @@
   </p>
   <p>
     <a href="https://www.aifast.club">
-      <img src="https://img.shields.io/badge/AI%20API-572%20%E6%A8%A1%E5%9E%8B-%23007AFF?style=flat-square&logo=openai" alt="AI API">
+      <img src="https://img.shields.io/badge/AI%20API-Current%20Catalog-%23007AFF?style=flat-square&logo=openai" alt="AI API">
     </a>
     <a href="https://github.com/KKWANG4444?tab=repositories">
       <img src="https://img.shields.io/badge/%E4%BB%93%E5%BA%93-16%20repos-%2325A162?style=flat-square&logo=github" alt="Repos">
@@ -30,8 +30,8 @@
 
 | 项目 | ⭐ Stars | 说明 |
 |:---|:---:|:---|
-| **[⚡ aifast.club](https://www.aifast.club)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444?style=flat-square&color=gold) | 572 个模型 · 一个 Key · 国内直连 |
-| **[📊 API 实时状态看板](https://kkwang4444.github.io/api-status/)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/api-status?style=flat-square&color=blue) | 572 个 AI 模型全球连通性监控 |
+| **[⚡ aifast.club](https://www.aifast.club)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444?style=flat-square&color=gold) | 模型广场当前目录 · 一个 Key · 国内直连 |
+| **[📊 API 实时状态看板](https://kkwang4444.github.io/api-status/)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/api-status?style=flat-square&color=blue) | 模型广场当前目录全球连通性监控 |
 | **[📖 AI 中转站指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-proxy-china-guide?style=flat-square&color=green) | 选型对比 · 合规方案 · 接入代码 |
 | **[📈 稳定性追踪器](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker?style=flat-square&color=orange) | Claude 4.7 / GPT 5.5 / DeepSeek V4 可用性对比 |
 | **[🔧 国内直连方案](https://github.com/KKWANG4444/llm-api-proxy-china)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/llm-api-proxy-china?style=flat-square&color=purple) | 2026 国内直连 · 接入教程 · 踩坑记录 |
@@ -61,7 +61,7 @@
 ## 🔥 最新动态
 
 - **2026-07-09** 🆕 模型列表与接入文档已整理，当前可用模型以平台控制台为准
-- **2026-07-06** 🆕 Claude Sonnet 5 上线！最 Agentic Sonnet，全平台572+模型稳定运行
+- **2026-07-06** 🆕 Claude Sonnet 5 上线！最 Agentic Sonnet，当前开放型号以模型广场为准
 - **2026-06-24** 模型目录更新：DeepSeek V4、Gemini 3 系列、GLM-5.2；当前开放型号以控制台为准
 - **2026-06-17** 🎯 知乎每日自动问答持续运行中
 - **2026-06-12** 🔄 同步所有 fork 仓库至上游最新版本
@@ -75,7 +75,7 @@
 
 > 🇨🇳 **国内开发者如何直连全球 AI 模型？**
 >
-> [**www.aifast.club**](https://www.aifast.club) — 一个 Key 搞定 572 个模型。国内直连，支持微信/支付宝。  
+> [**www.aifast.club**](https://www.aifast.club) — 一个 Key 接入模型广场当前开放型号。国内可访问，支持微信/支付宝。
 > Claude Sonnet 5 🆕、Sonnet 4、GPT-5.5、Gemini 3.5 Flash、Gemini 3、DeepSeek V4、Grok 4.5 🆕、GLM-5.2 全系支持。
 >
 > 🚀 [**OpenClaw 一键部署**](https://www.aifast.club/openclaw) — 你的专属 AI 智能体，无需服务器经验，一键上线。
@@ -118,7 +118,7 @@
 ---
 
 <p align="center">
-  <i>一个 Key · 572 个模型 · 国内直连</i>
+  <i>一个 Key · 模型广场当前目录 · 国内直连</i>
   <br>
   <a href="https://www.aifast.club">www.aifast.club</a>
   <br>

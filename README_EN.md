@@ -2,7 +2,7 @@
   <h1>👋 Hi, I'm KKWANG4444</h1>
   <p>
     <a href="https://www.aifast.club">
-      <img src="https://img.shields.io/badge/AI%20API-572%20Models-%23007AFF?style=flat-square&logo=openai" alt="AI API">
+      <img src="https://img.shields.io/badge/AI%20API-Current%20Catalog-%23007AFF?style=flat-square&logo=openai" alt="AI API">
     </a>
     <a href="https://github.com/KKWANG4444/ai-api-proxy-china-guide">
       <img src="https://img.shields.io/badge/API%20Proxy%20Guide-READ-blue?style=flat-square" alt="API Proxy Guide">
@@ -18,8 +18,8 @@
 
 I maintain practical AI API setup guides, a public status dashboard, and copy-paste examples for OpenAI-compatible tools.
 
-- 🚀 Founder of [**aifast.club**](https://www.aifast.club) — One API key, 572 models
-- 📊 Maintaining an [**AI API Status Monitor**](https://kkwang4444.github.io/api-status/) — tracking 572 models across 16+ providers
+- 🚀 Founder of [**aifast.club**](https://www.aifast.club) — One API key, the current marketplace catalog
+- 📊 Maintaining an [**AI API Status Monitor**](https://kkwang4444.github.io/api-status/) — tracking the current marketplace catalog across 16+ providers
 - 📝 Author of practical guides for developers working with AI APIs in restricted regions
 - 🔧 Open source contributor focused on AI accessibility
 
@@ -27,8 +27,8 @@ I maintain practical AI API setup guides, a public status dashboard, and copy-pa
 
 | Project | Description | Stars |
 |:---|:---|:---:|
-| [**ai-api-proxy-china-guide**](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 🇨🇳🇬🇧 Complete guide for AI API access in China — 572 models, pitfalls, tool configs | ⭐ |
-| [**api-status**](https://github.com/KKWANG4444/api-status) | 📊 Live dashboard monitoring 572 models across 16+ providers | ⭐ |
+| [**ai-api-proxy-china-guide**](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 🇨🇳🇬🇧 Complete guide for AI API access in China — the current marketplace catalog, pitfalls, tool configs | ⭐ |
+| [**api-status**](https://github.com/KKWANG4444/api-status) | 📊 Live dashboard monitoring the current marketplace catalog across 16+ providers | ⭐ |
 | [**llm-api-proxy-china**](https://github.com/KKWANG4444/llm-api-proxy-china) | 🔌 Full model list & gateway comparison for 16 providers | ⭐ |
 | [**stability-tracker**](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker) | 📈 public availability and latency observations for flagship AI models | ⭐ |
 
@@ -68,7 +68,7 @@ response = client.chat.completions.create(
 
 ![Status Dashboard](https://kkwang4444.github.io/api-status/assets/img/api-status-screenshot.png)
 
-👉 **[Live Dashboard: 572 Model Status](https://kkwang4444.github.io/api-status/)**
+👉 **[Live Dashboard: Marketplace Model Status](https://kkwang4444.github.io/api-status/)**
 
 > If one of these guides saved you time, star the repository you used. It helps other developers find the useful part instead of another landing page.
 
