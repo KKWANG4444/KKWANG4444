@@ -30,7 +30,7 @@ I build **AI API infrastructure** for developers who need reliable access to glo
 | [**ai-api-proxy-china-guide**](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 🇨🇳🇬🇧 Complete guide for AI API access in China — 572 models, pitfalls, tool configs | ⭐ |
 | [**api-status**](https://github.com/KKWANG4444/api-status) | 📊 Live dashboard monitoring 572 models across 16+ providers | ⭐ |
 | [**llm-api-proxy-china**](https://github.com/KKWANG4444/llm-api-proxy-china) | 🔌 Full model list & gateway comparison for 16 providers | ⭐ |
-| [**stability-tracker**](https://github.com/KKWANG4444/stability-tracker) | 📈 6-month stability data for flagship AI models | ⭐ |
+| [**stability-tracker**](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker) | 📈 6-month stability data for flagship AI models | ⭐ |
 
 ## 🛠️ What I Build
 
