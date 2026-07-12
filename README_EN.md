@@ -19,7 +19,7 @@
 I build **AI API infrastructure** for developers who need reliable access to global AI models from anywhere in the world.
 
 - 🚀 Founder of [**aifast.club**](https://www.aifast.club) — One API key, 572 models
-- 📊 Running the largest [**AI API Status Monitor**](https://kkwang4444.github.io/api-status/) — tracking 572 models across 16+ providers
+- 📊 Maintaining an [**AI API Status Monitor**](https://kkwang4444.github.io/api-status/) — tracking 572 models across 16+ providers
 - 📝 Author of practical guides for developers working with AI APIs in restricted regions
 - 🔧 Open source contributor focused on AI accessibility
 
@@ -30,7 +30,7 @@ I build **AI API infrastructure** for developers who need reliable access to glo
 | [**ai-api-proxy-china-guide**](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 🇨🇳🇬🇧 Complete guide for AI API access in China — 572 models, pitfalls, tool configs | ⭐ |
 | [**api-status**](https://github.com/KKWANG4444/api-status) | 📊 Live dashboard monitoring 572 models across 16+ providers | ⭐ |
 | [**llm-api-proxy-china**](https://github.com/KKWANG4444/llm-api-proxy-china) | 🔌 Full model list & gateway comparison for 16 providers | ⭐ |
-| [**stability-tracker**](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker) | 📈 6-month stability data for flagship AI models | ⭐ |
+| [**stability-tracker**](https://github.com/KKWANG4444/Claude-4.7-GPT-5.5-API-Stability-Tracker) | 📈 public availability and latency observations for flagship AI models | ⭐ |
 
 ## 🛠️ What I Build
 
