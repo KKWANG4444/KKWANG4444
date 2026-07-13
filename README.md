@@ -11,7 +11,7 @@
     <a href="https://github.com/KKWANG4444?tab=repositories">
       <img src="https://img.shields.io/badge/%E4%BB%93%E5%BA%93-16%20repos-%2325A162?style=flat-square&logo=github" alt="Repos">
     </a>
-    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--07--09-%23FF6B6B?style=flat-square" alt="Updated">
+    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--07--14-%23FF6B6B?style=flat-square" alt="Updated">
   </p>
   <p>
     维护 AI API 接入指南、状态看板和工具配置示例。代码能复制，结论会注明边界。
