@@ -19,7 +19,7 @@
 I maintain practical AI API setup guides, a public status dashboard, and copy-paste examples for OpenAI-compatible tools.
 
 - 🚀 Founder of [**aifast.club**](https://www.aifast.club) — One API key, the current marketplace catalog
-- 📊 Maintaining an [**AI API Status Monitor**](https://kkwang4444.github.io/api-status/) — tracking the current marketplace catalog across 16+ providers
+- 📊 Maintaining an [**AI API Catalog & Maintenance Reference**](https://kkwang4444.github.io/api-status/) — model IDs, maintenance notes and integration checks
 - 📝 Author of practical guides for developers working with AI APIs in restricted regions
 - 🔧 Open source contributor focused on AI accessibility
 
@@ -28,9 +28,9 @@ I maintain practical AI API setup guides, a public status dashboard, and copy-pa
 | Project | Description | Stars |
 |:---|:---|:---:|
 | [**ai-api-proxy-china-guide**](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 🇨🇳🇬🇧 Complete guide for AI API access in China — the current marketplace catalog, pitfalls, tool configs | ⭐ |
-| [**api-status**](https://github.com/KKWANG4444/api-status) | 📊 Live dashboard monitoring the current marketplace catalog across 16+ providers | ⭐ |
-| [**llm-api-proxy-china**](https://github.com/KKWANG4444/llm-api-proxy-china) | 🔌 Full model list & gateway comparison for 16 providers | ⭐ |
-| [**stability-tracker**](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | 📈 public availability and latency observations for flagship AI models | ⭐ |
+| [**api-status**](https://github.com/KKWANG4444/api-status) | 📊 Catalog, maintenance and integration reference | ⭐ |
+| [**llm-api-proxy-china**](https://github.com/KKWANG4444/llm-api-proxy-china) | 🔌 OpenAI-compatible setup and production checks | ⭐ |
+| [**stability-tracker**](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | 📈 Catalog, maintenance and reproducible test requirements | ⭐ |
 
 ## 🛠️ What I Build
 
@@ -42,10 +42,10 @@ One compatible Base URL → models currently listed in the console
 
 | Feature | Description |
 |:---|:---|
-| **Providers** | OpenAI, Anthropic, xAI, Google, DeepSeek, Alibaba, ByteDance, Zhipu + 8 more |
-| **Models** | Claude Sonnet 5, Grok 4.5, Gemini 3.1, DeepSeek V4 + 567 more |
-| **Protocol** | 100% OpenAI SDK compatible — drop-in replacement |
-| **Access** | Works globally — optimized for China, SE Asia, and restricted regions |
+| **Providers** | Models from several providers are listed in the current catalog |
+| **Models** | See the current console and maintenance notices |
+| **Protocol** | OpenAI-compatible endpoint; test each client feature before production |
+| **Access** | Availability depends on the user's network, region and current service status |
 
 ### Quick Start
 
@@ -64,11 +64,11 @@ response = client.chat.completions.create(
 )
 ```
 
-## 📊 Live Status
+## 📊 Catalog and maintenance reference
 
-![Status Dashboard](https://kkwang4444.github.io/api-status/assets/img/api-status-screenshot.png)
+The public reference records model IDs, maintenance notes and integration checks. It does not promise real-time monitoring, fixed latency or an SLA.
 
-👉 **[Live Dashboard: Marketplace Model Status](https://kkwang4444.github.io/api-status/)**
+👉 **[View the catalog and maintenance reference](https://kkwang4444.github.io/api-status/)**
 
 > If one of these guides saved you time, star the repository you used. It helps other developers find the useful part instead of another landing page.
 
@@ -81,11 +81,7 @@ response = client.chat.completions.create(
 
 ## International payment
 
-International users can pay **only with cryptocurrency**. The current balance conversion is:
-
-- **1 AIFast balance dollar ("1 刀") = 0.07 USDC or 0.07 USDT**
-
-Fiat payment methods are not available to international users. Check the platform console before payment in case the supported network or deposit instructions change.
+International users can pay only with cryptocurrency. **1 AIFast balance dollar ("1 刀") = 0.07 USDC or 0.07 USDT.** Fiat payment is not available to international users. Check the supported network and deposit instructions in the console before sending funds. This is an AIFast balance-unit conversion, not a token market exchange rate or an official model price.
 
 ---
 

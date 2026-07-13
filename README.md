@@ -31,9 +31,9 @@
 | 项目 | ⭐ Stars | 说明 |
 |:---|:---:|:---|
 | **[⚡ aifast.club](https://www.aifast.club)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444?style=flat-square&color=gold) | 模型广场当前目录 · 一个 Key · 国内直连 |
-| **[📊 API 实时状态看板](https://kkwang4444.github.io/api-status/)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/api-status?style=flat-square&color=blue) | 模型广场当前目录全球连通性监控 |
-| **[📖 AI 中转站指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-proxy-china-guide?style=flat-square&color=green) | 选型对比 · 合规方案 · 接入代码 |
-| **[📈 稳定性追踪器](https://github.com/KKWANG4444/AI-API-Stability-Tracker)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/AI-API-Stability-Tracker?style=flat-square&color=orange) | Claude 4.7 / GPT 5.5 / DeepSeek V4 可用性对比 |
+| **[📊 API 目录与维护参考](https://kkwang4444.github.io/api-status/)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/api-status?style=flat-square&color=blue) | 模型目录 · 维护公告 · 接入排错 |
+| **[📖 AI API 接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-proxy-china-guide?style=flat-square&color=green) | 模型核验 · 配置示例 · 生产检查 |
+| **[📈 状态观察仓库](https://github.com/KKWANG4444/AI-API-Stability-Tracker)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/AI-API-Stability-Tracker?style=flat-square&color=orange) | 目录配置 · 维护信息 · 可复现测试 |
 | **[🔧 国内直连方案](https://github.com/KKWANG4444/llm-api-proxy-china)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/llm-api-proxy-china?style=flat-square&color=purple) | 2026 国内直连 · 接入教程 · 踩坑记录 |
 | **[🚀 OpenClaw 一键部署](https://www.aifast.club/openclaw)** | — | 你的专属 AI 智能体，无需服务器经验 |
 
@@ -67,7 +67,7 @@
 - **2026-06-12** 🔄 同步所有 fork 仓库至上游最新版本
 - **2026-06-03** 📝 更新 4 个核心仓库 README 内容，完善 SEO 描述
 - **2026-05-28** 🚀 完成 api-status 仓库 GitHub Actions 配置
-- **2026-05-15** ✨ Claude 4.7 Opus / Gemini 3.5 Flash 支持上线
+- **2026-05-15** 模型目录曾更新；当前型号以控制台和维护公告为准
 
 ---
 
@@ -75,8 +75,8 @@
 
 > 🇨🇳 **国内开发者如何直连全球 AI 模型？**
 >
-> [**www.aifast.club**](https://www.aifast.club) — 一个 Key 接入模型广场当前开放型号。国内可访问，支持微信/支付宝。
-> Claude Sonnet 5 🆕、Sonnet 4、GPT-5.5、Gemini 3.5 Flash、Gemini 3、DeepSeek V4、Grok 4.5 🆕、GLM-5.2 全系支持。
+> [**www.aifast.club**](https://www.aifast.club) — 一个 Key 接入模型广场当前开放型号。国内账户支付方式以控制台为准。
+> Claude Sonnet 5、GPT-5.6 Sol / Terra / Luna、Gemini 3.5 Flash、DeepSeek V4、Grok 4.5、GLM-5.2 等型号以当前控制台和维护公告为准。
 >
 > 🚀 [**OpenClaw 一键部署**](https://www.aifast.club/openclaw) — 你的专属 AI 智能体，无需服务器经验，一键上线。
 
