@@ -9,7 +9,7 @@
     </a>
   </p>
   <p>
-    <a href="README.md">🇨🇳 中文</a> · 
+    <a href="README.md">🇨🇳 中文</a> ·
     <a href="README_EN.md">🇬🇧 English</a>
   </p>
 </div>
@@ -77,6 +77,16 @@ response = client.chat.completions.create(
 - **Website:** [aifast.club](https://www.aifast.club)
 - **GitHub:** [@KKWANG4444](https://github.com/KKWANG4444)
 - **Gitee:** [@kkwwww4444](https://gitee.com/kkwwww4444)
+
+
+## International payment
+
+International users can pay **only with cryptocurrency**. The current balance conversion is:
+
+- **1 USD-denominated balance unit = 0.07 USDC**
+- **1 USD-denominated balance unit = 0.07 USDT**
+
+Fiat payment methods are not available to international users. Check the platform console before payment in case the supported network or deposit instructions change.
 
 ---
 

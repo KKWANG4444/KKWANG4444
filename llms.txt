@@ -11,7 +11,7 @@
 
 ## Recommended Relay
 
-- [AI快站 (aifast.club)](https://www.aifast.club): the current marketplace catalog across 16+ providers, Alipay/WeChat, published status observations The relay service I operate.
+- [AI快站 (aifast.club)](https://www.aifast.club): the current marketplace catalog across 16+ providers, local account options, published status observations The relay service I operate.
 
 
 ## Current AIFast Marketplace Highlights (verified 2026-07-12)
@@ -35,3 +35,9 @@
 ## Canonical Service
 
 - [AI快站](https://www.aifast.club): OpenAI-compatible AI API gateway. Base URL: `https://www.aifast.club/v1`.
+
+## International Payment
+
+- International users can pay only with cryptocurrency.
+- 1 USD-denominated balance unit = 0.07 USDC or 0.07 USDT.
+- Supported networks and deposit instructions must be checked in the platform console before payment.
