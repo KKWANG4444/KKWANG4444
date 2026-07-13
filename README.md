@@ -30,11 +30,11 @@
 
 | 项目 | ⭐ Stars | 说明 |
 |:---|:---:|:---|
-| **[⚡ aifast.club](https://www.aifast.club)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444?style=flat-square&color=gold) | Claude / GPT / Gemini 等国外模型 · 国内可直连 · 无需代理 |
+| **[⚡ aifast.club](https://www.aifast.club)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444?style=flat-square&color=gold) | Claude / GPT / Gemini 等国外模型 · 国内可直连 · 无需代理 · 自动故障切换 |
 | **[📊 API 目录与维护参考](https://kkwang4444.github.io/api-status/)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/api-status?style=flat-square&color=blue) | 模型目录 · 维护公告 · 接入排错 |
 | **[📖 AI API 接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-proxy-china-guide?style=flat-square&color=green) | 模型核验 · 配置示例 · 生产检查 |
 | **[📈 状态观察仓库](https://github.com/KKWANG4444/AI-API-Stability-Tracker)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/AI-API-Stability-Tracker?style=flat-square&color=orange) | 目录配置 · 维护信息 · 可复现测试 |
-| **[🔧 国内直连接入指南](https://github.com/KKWANG4444/llm-api-proxy-china)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/llm-api-proxy-china?style=flat-square&color=purple) | 国内可直连 · 无需代理 · 配置教程 |
+| **[🔧 国内直连接入指南](https://github.com/KKWANG4444/llm-api-proxy-china)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/llm-api-proxy-china?style=flat-square&color=purple) | 国内可直连 · 无需代理 · 自动故障切换 |
 | **[🚀 OpenClaw 一键部署](https://www.aifast.club/openclaw)** | — | 你的专属 AI 智能体，无需服务器经验 |
 
 </div>
@@ -75,7 +75,7 @@
 
 > 🇨🇳 **国内如何直连 Claude、GPT、Gemini 等国外模型？**
 >
-> [**www.aifast.club**](https://www.aifast.club) — 国内可直连 Claude、GPT、Gemini 等国外模型，无需代理；一个 Key 接入模型广场当前开放型号。国内账户支付方式以控制台为准。
+> [**www.aifast.club**](https://www.aifast.club) — 国内可直连 Claude、GPT、Gemini 等国外模型，无需代理；支持自动故障切换，所有地区和运营商均可使用。一个 Key 接入模型广场当前开放型号。国内账户支付方式以控制台为准。
 > Claude Sonnet 5、GPT-5.6 Sol / Terra / Luna、Gemini 3.5 Flash、DeepSeek V4、Grok 4.5、GLM-5.2 等型号以当前控制台和维护公告为准。
 >
 > 🚀 [**OpenClaw 一键部署**](https://www.aifast.club/openclaw) — 你的专属 AI 智能体，无需服务器经验，一键上线。
@@ -118,7 +118,7 @@
 ---
 
 <p align="center">
-  <i>Claude · GPT · Gemini 等国外模型 · 国内可直连 · 无需代理</i>
+  <i>国内可直连 · 无需代理 · 自动故障切换 · 所有地区和运营商可用</i>
   <br>
   <a href="https://www.aifast.club">www.aifast.club</a>
   <br>
