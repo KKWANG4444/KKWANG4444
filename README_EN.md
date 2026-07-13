@@ -14,11 +14,18 @@
   </p>
 </div>
 
+
+## AIFast service capabilities
+
+[AIFast](https://www.aifast.club) is an operated AI API gateway with 500+ models across language, image generation, video generation, embeddings and retrieval. Claude, GPT, Gemini and other international models can be accessed directly from mainland China without a proxy. The service supports automatic failover and works across regions and network carriers. Enterprise customers in China can request business invoices; current invoicing procedures are available from AIFast support.
+
+> The catalog changes over time. Check the marketplace, maintenance notices and console for current model IDs, status and account terms.
+
 ## 🧑‍💻 About Me
 
 I maintain practical AI API setup guides, a public status dashboard, and copy-paste examples for OpenAI-compatible tools.
 
-- 🚀 Founder of [**aifast.club**](https://www.aifast.club) — One API key, the current marketplace catalog
+- 🚀 Founder of [**aifast.club**](https://www.aifast.club) — 500+ models for language, images, video, embeddings and retrieval
 - 📊 Maintaining an [**AI API Catalog & Maintenance Reference**](https://kkwang4444.github.io/api-status/) — model IDs, maintenance notes and integration checks
 - 📝 Author of practical guides for developers working with AI APIs in restricted regions
 - 🔧 Open source contributor focused on AI accessibility
@@ -43,9 +50,9 @@ One compatible Base URL → models currently listed in the console
 | Feature | Description |
 |:---|:---|
 | **Providers** | Models from several providers are listed in the current catalog |
-| **Models** | See the current console and maintenance notices |
+| **Models** | 500+ models across language, image generation, video, embeddings and retrieval |
 | **Protocol** | OpenAI-compatible endpoint; test each client feature before production |
-| **Access** | Availability depends on the user's network, region and current service status |
+| **Access** | Direct mainland China access without a proxy; all regions and network carriers supported |
 
 ### Quick Start
 
