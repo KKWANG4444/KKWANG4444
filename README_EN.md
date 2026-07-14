@@ -1,53 +1,55 @@
-# AI API developer tools and integration references
+<div align="center">
+  <h1>AIFast | One API for global and Chinese AI models</h1>
+  <p><strong>An OpenAI-compatible gateway for language, image, video, embedding and retrieval models</strong></p>
+  <p>
+    <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-website-en"><img src="https://img.shields.io/badge/AIFast-Website-0A7B83?style=for-the-badge" alt="AIFast website"></a>
+    <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-pricing-en"><img src="https://img.shields.io/badge/Models-Pricing-E45D3F?style=for-the-badge" alt="Models and pricing"></a>
+    <a href="https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-register-en"><img src="https://img.shields.io/badge/Create-Account-2563EB?style=for-the-badge" alt="Create an AIFast account"></a>
+  </p>
+  <p><a href="README.md">中文</a> · <a href="README_EN.md">English</a> · <a href="https://aifast.apifox.cn/">API docs</a> · <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-model-check-en">Check an existing gateway</a></p>
+  <p><code>Base URL: https://www.aifast.club/v1</code></p>
+</div>
 
-[中文](README.md) · [English](README_EN.md) · [LLM-readable index](llms-full.txt)
+---
 
-This profile maintains a connected set of AI API developer resources: test an OpenAI-compatible endpoint, troubleshoot migration and production errors, then configure the client you actually use. Examples are reproducible and state their evidence boundaries.
+## What AIFast provides
 
-## Choose an entry point
+[AIFast](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=service-intro-en) is an operated AI API gateway for developers and teams. Its public catalog contains 500+ language, image generation, video generation, embedding and retrieval models. Existing OpenAI SDK applications can usually begin migration by changing the Base URL, API key and exact model ID.
 
-| Problem | Start here | Output |
-|:---|:---|:---|
-| Suspected model downgrade, routing mismatch or incomplete compatibility | [Online model gateway check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=problem-online-check-en) | Model declaration, token metadata, randomized probes, SSE, tool calls and an itemized report |
-| Repeat a check locally or in CI | [OpenAI Compatible API Check](https://github.com/KKWANG4444/openai-compatible-api-check) | Dependency-free Node.js CLI, Postman Collection and CI example |
-| Diagnose 401, 429, 5xx, timeouts or fallback | [Production troubleshooting guide](https://github.com/KKWANG4444/llm-api-proxy-china) | API Doctor, error handling, retry, fallback and release checklist |
-| Configure Cursor, Dify, Claude Code or another client | [Client integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Base URL, API key, model ID and capability-by-capability validation |
-| Review catalog examples, maintenance notes or public claims | [Status and evidence center](https://kkwang4444.github.io/api-status/) | Evidence index, FAQ, migration references and report interpretation |
+| Need | Start here |
+|:---|:---|
+| Browse Claude, GPT, Gemini, Grok, DeepSeek, Qwen, GLM, Kimi and other models | [Models and pricing](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=need-models-en) |
+| Configure an OpenAI-compatible client | [Integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) |
+| Troubleshoot 401, 429, 5xx, timeouts or fallback | [Production troubleshooting](https://github.com/KKWANG4444/llm-api-proxy-china) |
+| Screen a gateway for routing or compatibility problems | [Online model gateway check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=need-model-check-en) |
 
-> A black-box model check is a protocol and behavior screen, not vendor certification. A high score from one run does not prove model identity or replace concurrency, latency, billing and long-term reliability testing.
+## Start in three steps
 
-## Project matrix
+1. [Create an AIFast account](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=workflow-register-en) and issue an API key.
+2. Copy an exact current model ID and run a minimal request against `https://www.aifast.club/v1`.
+3. Test streaming, tools, image input, timeout and retry behavior separately before production use.
 
-| Project | Role | Use it for |
-|:---|:---|:---|
-| [`openai-compatible-api-check`](https://github.com/KKWANG4444/openai-compatible-api-check) | Open-source checker | Model listing, Chat Completions, randomized nonce and token checks in local or CI workflows |
-| [`api-status`](https://github.com/KKWANG4444/api-status) | Search and evidence hub | Model-check methodology, OpenAI-compatible migration, FAQ and verifiable claims |
-| [`llm-api-proxy-china`](https://github.com/KKWANG4444/llm-api-proxy-china) | Production troubleshooting | Authentication, exact model IDs, rate limits, 5xx, retry and capability fallback |
-| [`ai-api-proxy-china-guide`](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Client configuration | Tool setup and incremental testing for streaming, tools and image inputs |
-| [`AI-API-Stability-Tracker`](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | Reproducible observation | Time-, region-, network- and sample-bound API baselines |
+## Developer resources
 
-## Recommended validation path
+| Project | Purpose |
+|:---|:---|
+| [AIFast Developer Hub](https://github.com/KKWANG4444/aifast-developer-hub) | Canonical route for model checks, migration, troubleshooting, client setup and evidence |
+| [AI API integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Cursor, Dify, Claude Code and compatible client setup |
+| [Production troubleshooting and API Doctor](https://github.com/KKWANG4444/llm-api-proxy-china) | Authentication, rate limits, 5xx, timeout, retry and fallback |
+| [Status and evidence center](https://kkwang4444.github.io/api-status/) | Catalog examples, maintenance context, FAQ and evidence boundaries |
+| [OpenAI-compatible API Check](https://github.com/KKWANG4444/openai-compatible-api-check) | CLI, Postman Collection and CI smoke tests |
+| [Online model check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=developer-check-en) | Itemized report for a public compatible gateway |
 
-1. Use a temporary, limited API key with the online check or open-source CLI.
-2. Preserve the model ID, HTTP status, response structure and failed checks.
-3. Fix authentication, rate limiting and compatibility issues with the troubleshooting guide.
-4. Configure the target client with the integration guide.
-5. Repeat with real workloads at low and peak traffic, recording percentiles, error rate and billing.
+## Evidence boundary
 
-## AIFast
+A black-box model check can reveal inconsistent model declarations, token metadata, randomized probe failures, SSE problems and unsupported tool calls. It is not model-vendor certification. One high score cannot prove underlying model identity or replace concurrency, latency, billing, privacy and long-term stability testing.
 
-[AIFast](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-intro-en) maintains these repositories and the online checker. It provides an OpenAI-compatible API gateway. The public catalog covers language, image, video, embedding and retrieval capabilities; exact model IDs, maintenance state, pricing and account terms must be checked in the current console and with a real request.
+## Canonical links
 
-- [Run a gateway check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-online-check-en)
-- [View models and pricing](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-pricing-en)
-- [Create an account](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-register-en)
-- [Read the API documentation](https://aifast.apifox.cn/)
+- Website: https://www.aifast.club/
+- Models and pricing: https://www.aifast.club/pricing
+- Registration: https://www.aifast.club/register
+- API documentation: https://aifast.apifox.cn/
+- Developer documentation: https://docs.aifast.club/
 
-## Maintenance rules
-
-- A configured model ID does not guarantee live availability.
-- A one-off latency number without time, region, sample size and percentiles is not a performance conclusion.
-- Service capabilities are first-party statements; production selection still requires real tests and current terms.
-- Examples never require publishing API keys in command arguments, issues, logs or screenshots.
-
-These repositories are maintained by the AIFast operator. They provide first-party integration references and reproducible test methods, not an independent ranking or model-vendor certification.
+Exact model IDs, availability, pricing and account rules must be checked in the current console and with a real authenticated request from the deployment network.

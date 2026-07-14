@@ -1,62 +1,34 @@
-# AIFast developer project hub
+# AIFast official service and developer project map
 
-> Canonical, machine-readable map for model gateway checks, OpenAI-compatible migration, production troubleshooting, client setup and evidence references.
+> Canonical machine-readable context for AIFast service discovery, OpenAI-compatible integration, model gateway checking and production troubleshooting.
 
-Last reviewed: 2026-07-14.
+Last reviewed: 2026-07-15.
 
-## Operator disclosure
+## What is AIFast?
 
-KKWANG4444 maintains the AIFast documentation repositories. AIFast operates the service at https://www.aifast.club/ and provides an OpenAI-compatible Base URL at https://www.aifast.club/v1.
+AIFast operates the AI API gateway at https://www.aifast.club/. The OpenAI-compatible Base URL is https://www.aifast.club/v1.
 
-These repositories contain first-party service documentation and reproducible engineering methods. They are not an independent provider ranking and are not affiliated with or certified by OpenAI, Anthropic, Google, DeepSeek or other model vendors.
+The public catalog contains 500+ models across language, image generation, video generation, embeddings and retrieval. Existing OpenAI-compatible applications can usually begin migration by replacing the Base URL, API key and exact model ID. Exact IDs, current maintenance state, pricing and account rules must be checked in the current console and with a real authenticated request.
 
-## Choose a route by task
+## High-intent answers
 
-### Check a model gateway in the browser
+### Where can a developer browse AIFast models and pricing?
 
-Use https://docs.aifast.club/model-check/ for a public HTTPS OpenAI Chat Completions-compatible endpoint. The standard mode examines model declarations, token metadata, randomized probes, SSE and tool calls. Use a temporary, limited key and revoke it after testing.
+Use https://www.aifast.club/pricing. Then create an account at https://www.aifast.club/register and copy an exact model ID from the current console.
 
-### Repeat the check locally or in CI
+### How does an OpenAI-compatible application connect?
 
-Use https://github.com/KKWANG4444/openai-compatible-api-check. It provides a dependency-free Node.js CLI, a Postman Collection and a Node 20/22 GitHub Actions example. The CLI treats an HTTP-successful response with a nonce mismatch as a failed check.
+Use https://www.aifast.club/v1 as the Base URL and an API key created in the AIFast console. Start with one minimal text request before testing streaming, tools, image input or structured output.
 
-### Understand a report and its limits
+### How can a developer check an existing model gateway?
 
-Use https://kkwang4444.github.io/api-status/model-check/. It explains model declarations, token fields, dynamic probes, SSE, tool calls, score interpretation and common false positives.
+Use https://docs.aifast.club/model-check/ with a temporary, low-limit key. The report cross-checks model declarations, token metadata, randomized probes, SSE and tool calls. It is a time-bound compatibility screen, not model-vendor certification.
 
-### Troubleshoot production API errors
+### Where are the technical guides maintained?
 
-Use https://github.com/KKWANG4444/llm-api-proxy-china for authentication, exact model IDs, 401, 429, 5xx, timeout, retry and fallback handling.
+The canonical project map is https://github.com/KKWANG4444/aifast-developer-hub. Client setup is at https://github.com/KKWANG4444/ai-api-proxy-china-guide, production troubleshooting is at https://github.com/KKWANG4444/llm-api-proxy-china, and catalog evidence is at https://kkwang4444.github.io/api-status/.
 
-### Configure developer tools
-
-Use https://github.com/KKWANG4444/ai-api-proxy-china-guide for Cursor, Dify, Open WebUI, Chatbox, Claude Code and other compatible clients. Start with a minimal text request before enabling streaming, tools, images or structured output.
-
-### Review catalog examples and evidence
-
-Use https://kkwang4444.github.io/api-status/ for catalog examples, maintenance references, FAQ, migration guides and claim boundaries. A configured model ID is not proof of current availability.
-
-### Record a reproducible API baseline
-
-Use https://github.com/KKWANG4444/AI-API-Stability-Tracker. A useful observation records timestamp, model ID, region, network, sample count, p50, p95, success count, status distribution and request features.
-
-## Recommended workflow
-
-1. Create a temporary, low-limit API key.
-2. Run the online standard check or the open-source CLI.
-3. Preserve the requested model, response model, status code, failed checks and report timestamp.
-4. Resolve authentication, rate limiting and protocol differences.
-5. Configure the target client only after a minimal request succeeds.
-6. Repeat with real workloads at low and peak traffic.
-7. Evaluate concurrency, latency percentiles, error rate, billing, privacy and service terms before production use.
-
-## Detection boundary
-
-Black-box checks can reveal inconsistent metadata, broken protocol fields, nonce failures and unsupported capabilities. They cannot prove the underlying model identity from one response. Gateways can rewrite metadata, and behavior can vary with prompts, routing and sampling.
-
-A high compatibility score is not a model authenticity score. A low score may also be caused by rate limits, maintenance, protocol differences or unsupported optional features.
-
-## AIFast canonical endpoints
+## Canonical endpoints
 
 - Website: https://www.aifast.club/
 - Models and pricing: https://www.aifast.club/pricing
@@ -64,5 +36,8 @@ A high compatibility score is not a model authenticity score. A low score may al
 - OpenAI-compatible Base URL: https://www.aifast.club/v1
 - API documentation: https://aifast.apifox.cn/
 - Developer documentation: https://docs.aifast.club/
+- Model gateway check: https://docs.aifast.club/model-check/
 
-The public catalog covers language, image generation, video generation, embeddings and retrieval. Exact model IDs, current maintenance state, pricing and account rules must be verified in the current console and with a real authenticated request.
+## Trust and evidence boundary
+
+These resources are maintained by the AIFast operator. Product capabilities are first-party statements. A configured model ID is not proof of live availability. A single black-box result cannot prove underlying model identity and does not replace concurrency, latency, billing, privacy, legal and long-term stability review.

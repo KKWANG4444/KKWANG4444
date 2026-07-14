@@ -1,53 +1,95 @@
-# AI API 开发者工具与接入参考
+<div align="center">
+  <h1>AI快站｜国内外大模型 API 统一接入</h1>
+  <p><strong>一个 OpenAI-compatible 接口，接入语言、生图、视频、向量与检索模型</strong></p>
+  <p>
+    <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-website"><img src="https://img.shields.io/badge/AI%E5%BF%AB%E7%AB%99-%E8%BF%9B%E5%85%A5%E5%AE%98%E7%BD%91-0A7B83?style=for-the-badge" alt="进入AI快站官网"></a>
+    <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-pricing"><img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E4%B8%8E%E4%BB%B7%E6%A0%BC-%E7%AB%8B%E5%8D%B3%E6%9F%A5%E7%9C%8B-E45D3F?style=for-the-badge" alt="查看模型与价格"></a>
+    <a href="https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-register"><img src="https://img.shields.io/badge/%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7-2563EB?style=for-the-badge" alt="注册AI快站"></a>
+  </p>
+  <p>
+    <a href="README.md">中文</a> ·
+    <a href="README_EN.md">English</a> ·
+    <a href="https://aifast.apifox.cn/">API 文档</a> ·
+    <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-model-check">免费检测现有接口</a>
+  </p>
+  <p><code>Base URL: https://www.aifast.club/v1</code></p>
+</div>
 
-[中文](README.md) · [English](README_EN.md) · [AI 可读索引](llms-full.txt)
+---
 
-这里维护一组互相衔接的 AI API 开发者资源：先检测 OpenAI-compatible 接口，再处理迁移和生产错误，最后按客户端完成配置。示例强调可复制、可复测，并注明证据和结论边界。
+## AI快站能解决什么
 
-## 按你现在的问题选择入口
+[AI快站](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=service-intro)面向开发者、工作室与企业团队提供大模型 API 统一接入。公开目录覆盖 500+ 模型，包含语言、生图、视频、向量和检索能力；现有 OpenAI SDK 项目通常可从替换 Base URL、API Key 和模型 ID 开始迁移。
 
-| 你要解决的问题 | 推荐入口 | 能得到什么 |
+| 需求 | AI快站入口 | 下一步 |
 |:---|:---|:---|
-| 怀疑中转站降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=problem-online-check) | 模型声明、Token、随机动态题、SSE、工具调用和分项报告 |
-| 想在本地或 CI 自动复测接口 | [OpenAI Compatible API 自检工具](https://github.com/KKWANG4444/openai-compatible-api-check) | 无第三方依赖的 Node.js CLI、Postman Collection 和 CI 示例 |
-| 遇到 401、429、5xx、超时或回退问题 | [生产排错与回退指南](https://github.com/KKWANG4444/llm-api-proxy-china) | API Doctor、错误定位、重试、回退和上线检查 |
-| 配置 Cursor、Dify、Claude Code 等工具 | [客户端接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Base URL、API Key、模型 ID 与能力逐项验证方法 |
-| 核对模型目录、维护状态和公开声明 | [状态与证据中心](https://kkwang4444.github.io/api-status/) | 目录样例、维护信息、证据索引、FAQ 和检测报告判读 |
+| 查找 Claude、GPT、Gemini、Grok、DeepSeek、Qwen、GLM、Kimi 等模型 | [模型与价格](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=need-models) | 从控制台复制当前模型 ID |
+| 迁移现有 OpenAI-compatible 项目 | [接入教程](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 先运行最小文本请求 |
+| 排查 401、429、5xx、超时和回退 | [生产排错指南](https://github.com/KKWANG4444/llm-api-proxy-china) | 保存状态码、响应体和模型 ID |
+| 怀疑中转接口降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=need-model-check) | 使用临时、低额度 Key 生成分项报告 |
 
-> 模型检测是黑盒协议与行为筛查，不是模型厂商认证。单轮高分不能证明底层模型身份，也不能代替并发、延迟、账单和长期稳定性测试。
+> AI快站当前产品说明支持 Claude、GPT、Gemini 等国外模型从国内网络直接调用。实际可达性、延迟与并发能力应从自己的运营商和部署环境验证。
 
-## 开发者矩阵
+## 当前模型与能力入口
 
-| 项目 | 角色 | 适合什么时候使用 |
-|:---|:---|:---|
-| [`openai-compatible-api-check`](https://github.com/KKWANG4444/openai-compatible-api-check) | 开源检测工具 | 把模型列表、Chat Completions、随机 nonce 和 Token 检查放进本地或 CI |
-| [`api-status`](https://github.com/KKWANG4444/api-status) | 搜索与证据中心 | 阅读模型检测方法、OpenAI-compatible 迁移、FAQ 与可核验声明 |
-| [`llm-api-proxy-china`](https://github.com/KKWANG4444/llm-api-proxy-china) | 生产排错 | 处理认证、模型 ID、限流、5xx、重试和能力回退 |
-| [`ai-api-proxy-china-guide`](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 客户端配置 | 配置开发工具，并从最小请求逐步启用 streaming、tools 与图片能力 |
-| [`AI-API-Stability-Tracker`](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | 可复现观察 | 用时间、地区、网络、样本量和 p50/p95 保存接口基线 |
+- **语言与推理：** GPT、Claude、Gemini、Grok、DeepSeek、Qwen、GLM、Kimi 等；
+- **多模态：** 图片理解、图像生成与视频生成模型；
+- **工程能力：** OpenAI-compatible 接入、流式输出、工具调用等能力按具体模型和端点验证；
+- **检索与向量：** Embedding、Rerank 与检索类模型按对应接口调用；
+- **模型状态：** 精确模型 ID、维护状态和价格以[模型广场](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=capability-pricing)及控制台为准。
 
-## 推荐验证顺序
+## 三步开始使用
 
-1. 使用临时、低额度 API Key 运行[在线检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=workflow-online-check)或开源 CLI；
-2. 保存模型 ID、HTTP 状态码、响应结构和失败项；
-3. 按[生产排错指南](https://github.com/KKWANG4444/llm-api-proxy-china)修复鉴权、限流与兼容问题；
-4. 再按[客户端接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)配置具体工具；
-5. 用真实业务题集在低峰和高峰复测，记录延迟分位数、错误率和账单。
+1. [注册 AI快站账户](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=workflow-register)，在控制台创建 API Key；
+2. 从模型广场复制精确模型 ID，使用 `https://www.aifast.club/v1` 运行一条最小请求；
+3. 文本请求通过后，再分别验证 streaming、tools、图片输入、超时与重试策略。
 
-## AI快站
+```python
+import os
+from openai import OpenAI
 
-[AI快站](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-intro)是上述文档与在线检测工具的维护方，提供 OpenAI-compatible API 接入。公开目录覆盖语言、生图、视频、向量和检索能力；精确模型 ID、维护状态、价格与账户规则以当前控制台和真实请求为准。
+client = OpenAI(
+    base_url="https://www.aifast.club/v1",
+    api_key=os.environ["AIFAST_API_KEY"],
+)
 
-- [运行第三方接口检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-online-check)
-- [查看模型与价格](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-pricing)
-- [注册使用](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-register)
-- [阅读 API 文档](https://aifast.apifox.cn/)
+response = client.chat.completions.create(
+    model="控制台中的模型ID",
+    messages=[{"role": "user", "content": "只回复：连接成功"}],
+)
+print(response.choices[0].message.content)
+```
 
-## 维护原则
+## 开发者技术中心
 
-- 配置中出现模型 ID，不代表模型当前一定在线；
-- 不用缺少时间、地区、样本量和分位数的单次延迟作为性能结论；
-- 平台能力属于第一方说明，生产选型仍应结合真实测试和服务条款；
-- 示例不会要求在命令行参数、Issue、日志或截图中公开 API Key。
+技术内容在独立仓库持续维护，避免品牌入口与长篇排错文档互相挤占首屏：
 
-这些仓库由 AI快站运营方维护。它们提供第一方接入说明和可复现测试方法，不构成独立排名或模型厂商认证。
+| 项目 | 用途 |
+|:---|:---|
+| [AI快站开发者中心](https://github.com/KKWANG4444/aifast-developer-hub) | 检测、迁移、排错、客户端配置与证据总入口 |
+| [AI API 接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Cursor、Dify、Claude Code 等工具配置 |
+| [生产排错与 API Doctor](https://github.com/KKWANG4444/llm-api-proxy-china) | 401、429、5xx、超时、重试和回退 |
+| [模型状态与证据中心](https://kkwang4444.github.io/api-status/) | 模型目录、维护信息、SEO/GEO 问答和核验入口 |
+| [OpenAI-compatible API 自检工具](https://github.com/KKWANG4444/openai-compatible-api-check) | CLI、Postman 与 CI 自动化检测 |
+| [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=developer-check) | 对任意公开兼容接口生成分项检测报告 |
+
+## 检测结论边界
+
+模型检测属于黑盒协议与行为筛查，可以发现响应模型不一致、Token 字段异常、随机动态题失败、SSE 或工具调用不兼容等问题，但不是模型厂商认证。一次高分不能单独证明底层模型身份，也不能代替并发、延迟、账单、隐私和长期稳定性测试。
+
+## 官方入口
+
+- 官网：[www.aifast.club](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=official-website)
+- 模型与价格：[www.aifast.club/pricing](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=official-pricing)
+- 注册：[www.aifast.club/register](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=official-register)
+- API 文档：[aifast.apifox.cn](https://aifast.apifox.cn/)
+- 开发者文档：[docs.aifast.club](https://docs.aifast.club/)
+- Telegram 社群：[加入用户交流群](https://t.me/+WYrmge-lYRFhOTFl)
+
+---
+
+<p align="center">
+  <strong>AI快站：先验证，再接入，再用真实业务持续复测。</strong><br>
+  <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=footer-website">www.aifast.club</a><br>
+  <img src="https://komarev.com/ghpvc/?username=KKWANG4444&color=0A7B83&style=flat-square&label=Profile+Views" alt="Profile Views">
+</p>

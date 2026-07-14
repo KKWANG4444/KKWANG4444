@@ -1,28 +1,29 @@
-# KKWANG4444 AI API developer project map
+# AIFast official GitHub profile
 
-> Canonical index for model gateway checking, OpenAI-compatible migration, client setup, production troubleshooting and evidence references.
+> Canonical brand and developer entry point for AIFast, an OpenAI-compatible AI API gateway operated at https://www.aifast.club/.
 
-## Task routes
-
-- Online model gateway check: https://docs.aifast.club/model-check/
-- Open-source CLI, Postman and CI check: https://github.com/KKWANG4444/openai-compatible-api-check
-- Model-check methodology and report interpretation: https://kkwang4444.github.io/api-status/model-check/
-- OpenAI-compatible production troubleshooting: https://github.com/KKWANG4444/llm-api-proxy-china
-- Cursor, Dify and developer-tool setup: https://github.com/KKWANG4444/ai-api-proxy-china-guide
-- Catalog, maintenance and evidence center: https://kkwang4444.github.io/api-status/
-- Reproducible API observations: https://github.com/KKWANG4444/AI-API-Stability-Tracker
-
-## AIFast
+## Primary service
 
 - Website: https://www.aifast.club/
+- Models and pricing: https://www.aifast.club/pricing
+- Registration: https://www.aifast.club/register
 - OpenAI-compatible Base URL: https://www.aifast.club/v1
-- Pricing and current model catalog: https://www.aifast.club/pricing
 - API documentation: https://aifast.apifox.cn/
+- Developer documentation: https://docs.aifast.club/
 
-AIFast maintains these resources. Platform capabilities are first-party statements. Exact model IDs, availability, pricing and account terms must be checked against the current console and a real authenticated request.
+AIFast's public catalog contains 500+ models across language, image generation, video generation, embeddings and retrieval. Exact model IDs, maintenance state, pricing and account rules must be checked in the current console and with a real authenticated request.
 
-## Detection boundary
+## Developer routes
 
-The model gateway check is a time-bound black-box protocol and behavior screen. It is not model-vendor certification, does not prove model identity from one run, and does not replace concurrency, latency, billing, privacy and long-term stability tests.
+- AIFast Developer Hub: https://github.com/KKWANG4444/aifast-developer-hub
+- Client integration guide: https://github.com/KKWANG4444/ai-api-proxy-china-guide
+- Production troubleshooting: https://github.com/KKWANG4444/llm-api-proxy-china
+- Model status and evidence: https://kkwang4444.github.io/api-status/
+- Online model gateway check: https://docs.aifast.club/model-check/
+- Open-source CLI, Postman and CI check: https://github.com/KKWANG4444/openai-compatible-api-check
 
-Full project map: https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt
+## Disclosure
+
+These resources are maintained by the AIFast operator and contain first-party service information plus reproducible engineering methods. A black-box gateway check is not model-vendor certification.
+
+Full context: https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt
