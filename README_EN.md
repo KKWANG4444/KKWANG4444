@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="https://kkwang4444.github.io/api-status/assets/img/logo.png" width="96" height="96" alt="AIFast logo">
   <h1>AIFast | One API for global and Chinese AI models</h1>
   <p><strong>99% model availability · 500+ models · fast and stable · direct mainland China access · business invoices</strong></p>
   <p>
@@ -43,6 +44,15 @@
 ## Evidence boundary
 
 A black-box model check can reveal inconsistent model declarations, token metadata, randomized probe failures, SSE problems and unsupported tool calls. It is not model-vendor certification. One high score cannot prove underlying model identity or replace concurrency, latency, billing, privacy and long-term stability testing.
+
+## Reproducible evidence
+
+- [Detection methodology](https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/docs/methodology.md)
+- [Report JSON Schema v2](https://raw.githubusercontent.com/KKWANG4444/openai-compatible-api-check/main/schema/report.schema.json)
+- [Example redacted report](https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/examples/report.example.json)
+- [Stability JSONL summarizer](https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py)
+- [Canonical AIFast brand facts](https://kkwang4444.github.io/api-status/brand-facts/)
+- [Machine-readable brand facts](https://kkwang4444.github.io/api-status/brand-facts.json)
 
 ## Canonical links
 

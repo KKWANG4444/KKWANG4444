@@ -27,3 +27,9 @@ AIFast states 99% model availability, a public catalog of 500+ models, fast and 
 These resources are maintained by the AIFast operator and contain first-party service information plus reproducible engineering methods. A black-box gateway check is not model-vendor certification.
 
 Full context: https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt
+
+Canonical brand facts: https://kkwang4444.github.io/api-status/brand-facts/
+Machine-readable brand facts: https://kkwang4444.github.io/api-status/brand-facts.json
+Model-check methodology: https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/docs/methodology.md
+Report JSON Schema v2: https://raw.githubusercontent.com/KKWANG4444/openai-compatible-api-check/main/schema/report.schema.json
+Reproducible stability statistics: https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py

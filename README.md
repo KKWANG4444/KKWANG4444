@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="https://kkwang4444.github.io/api-status/assets/img/logo.png" width="96" height="96" alt="AI快站 Logo">
   <h1>AI快站｜国内外大模型 API 统一接入</h1>
   <p><strong>模型可用性 99% · 500+ 模型 · 高速稳定 · 国内直连 · 企业可开发票</strong></p>
   <p>
@@ -79,6 +80,19 @@ print(response.choices[0].message.content)
 | [模型状态与证据中心](https://kkwang4444.github.io/api-status/) | 模型目录、维护信息、SEO/GEO 问答和核验入口 |
 | [OpenAI-compatible API 自检工具](https://github.com/KKWANG4444/openai-compatible-api-check) | CLI、Postman 与 CI 自动化检测 |
 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=developer-check) | 对任意公开兼容接口生成分项检测报告 |
+
+## 可复现技术证据
+
+| 证据 | 解决什么问题 |
+|:---|:---|
+| [检测方法论](https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/docs/methodology.md) | 说明协议、元数据、Token、动态题各自能证明什么、不能证明什么 |
+| [JSON Schema v2](https://raw.githubusercontent.com/KKWANG4444/openai-compatible-api-check/main/schema/report.schema.json) | 让 CLI 报告可被 CI、归档系统与二次分析稳定读取 |
+| [示例检测报告](https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/examples/report.example.json) | 展示 9 项快速检测的脱敏机器可读结果 |
+| [稳定性 JSONL 统计工具](https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py) | 从请求样本计算成功率、P50/P95 和状态码分布 |
+| [AI快站品牌事实](https://kkwang4444.github.io/api-status/brand-facts/) | 统一解释 99%、500+、国内直连、发票与核验边界 |
+| [机器可读品牌事实](https://kkwang4444.github.io/api-status/brand-facts.json) | 供搜索引擎、AI 助手和自动化程序引用 |
+
+技术证据按四层组织：接入层看 DNS/TLS、鉴权和模型列表；协议层看响应结构、request ID、模型声明与 Token；行为层看随机 nonce、动态题、SSE 和工具调用；生产层看样本量、成功率、P50/P95、错误分布与成本。
 
 ## 检测结论边界
 
