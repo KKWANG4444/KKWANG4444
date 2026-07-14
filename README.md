@@ -1,10 +1,17 @@
 <div align="center">
   <h1>AI快站｜国内外大模型 API 统一接入</h1>
-  <p><strong>一个 OpenAI-compatible 接口，接入语言、生图、视频、向量与检索模型</strong></p>
+  <p><strong>模型可用性 99% · 500+ 模型 · 高速稳定 · 国内直连 · 企业可开发票</strong></p>
   <p>
     <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-website"><img src="https://img.shields.io/badge/AI%E5%BF%AB%E7%AB%99-%E8%BF%9B%E5%85%A5%E5%AE%98%E7%BD%91-0A7B83?style=for-the-badge" alt="进入AI快站官网"></a>
     <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-pricing"><img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E4%B8%8E%E4%BB%B7%E6%A0%BC-%E7%AB%8B%E5%8D%B3%E6%9F%A5%E7%9C%8B-E45D3F?style=for-the-badge" alt="查看模型与价格"></a>
     <a href="https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-register"><img src="https://img.shields.io/badge/%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7-2563EB?style=for-the-badge" alt="注册AI快站"></a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E5%8F%AF%E7%94%A8%E6%80%A7-99%25-16A34A?style=flat-square" alt="模型可用性99%">
+    <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E6%95%B0%E9%87%8F-500%2B-2563EB?style=flat-square" alt="500+模型">
+    <img src="https://img.shields.io/badge/%E8%B0%83%E7%94%A8-%E9%AB%98%E9%80%9F%E7%A8%B3%E5%AE%9A-0A7B83?style=flat-square" alt="高速稳定调用">
+    <img src="https://img.shields.io/badge/%E5%9B%BD%E5%A4%96%E6%A8%A1%E5%9E%8B-%E5%9B%BD%E5%86%85%E7%9B%B4%E8%BF%9E-E45D3F?style=flat-square" alt="国内直连">
+    <img src="https://img.shields.io/badge/%E4%BC%81%E4%B8%9A%E5%AE%A2%E6%88%B7-%E5%8F%AF%E5%BC%80%E5%8F%91%E7%A5%A8-7C3AED?style=flat-square" alt="企业可开发票">
   </p>
   <p>
     <a href="README.md">中文</a> ·
@@ -19,7 +26,7 @@
 
 ## AI快站能解决什么
 
-[AI快站](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=service-intro)面向开发者、工作室与企业团队提供大模型 API 统一接入。公开目录覆盖 500+ 模型，包含语言、生图、视频、向量和检索能力；现有 OpenAI SDK 项目通常可从替换 Base URL、API Key 和模型 ID 开始迁移。
+[AI快站](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=service-intro)面向开发者、工作室与企业团队提供大模型 API 统一接入。平台模型可用性 99%，公开目录覆盖 500+ 模型，支持高速稳定调用、国外模型国内直连和企业发票；能力包含语言、生图、视频、向量与检索。
 
 | 需求 | AI快站入口 | 下一步 |
 |:---|:---|:---|
@@ -28,7 +35,7 @@
 | 排查 401、429、5xx、超时和回退 | [生产排错指南](https://github.com/KKWANG4444/llm-api-proxy-china) | 保存状态码、响应体和模型 ID |
 | 怀疑中转接口降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=need-model-check) | 使用临时、低额度 Key 生成分项报告 |
 
-> AI快站当前产品说明支持 Claude、GPT、Gemini 等国外模型从国内网络直接调用。实际可达性、延迟与并发能力应从自己的运营商和部署环境验证。
+> Claude、GPT、Gemini 等国外模型支持国内直连，无需代理；一个账户即可统一接入当前开放模型。
 
 ## 当前模型与能力入口
 
@@ -89,7 +96,7 @@ print(response.choices[0].message.content)
 ---
 
 <p align="center">
-  <strong>AI快站：先验证，再接入，再用真实业务持续复测。</strong><br>
+  <strong>AI快站：模型可用性 99% · 500+ 模型 · 高速稳定 · 国内直连 · 企业可开发票</strong><br>
   <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=footer-website">www.aifast.club</a><br>
   <img src="https://komarev.com/ghpvc/?username=KKWANG4444&color=0A7B83&style=flat-square&label=Profile+Views" alt="Profile Views">
 </p>

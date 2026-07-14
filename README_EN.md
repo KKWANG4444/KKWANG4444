@@ -1,6 +1,6 @@
 <div align="center">
   <h1>AIFast | One API for global and Chinese AI models</h1>
-  <p><strong>An OpenAI-compatible gateway for language, image, video, embedding and retrieval models</strong></p>
+  <p><strong>99% model availability · 500+ models · fast and stable · direct mainland China access · business invoices</strong></p>
   <p>
     <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-website-en"><img src="https://img.shields.io/badge/AIFast-Website-0A7B83?style=for-the-badge" alt="AIFast website"></a>
     <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-pricing-en"><img src="https://img.shields.io/badge/Models-Pricing-E45D3F?style=for-the-badge" alt="Models and pricing"></a>
@@ -14,7 +14,7 @@
 
 ## What AIFast provides
 
-[AIFast](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=service-intro-en) is an operated AI API gateway for developers and teams. Its public catalog contains 500+ language, image generation, video generation, embedding and retrieval models. Existing OpenAI SDK applications can usually begin migration by changing the Base URL, API key and exact model ID.
+[AIFast](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=service-intro-en) is an operated AI API gateway for developers and teams. The service states 99% model availability, a catalog of 500+ models, fast and stable calls, direct mainland China access for international models, and business invoices for enterprise customers.
 
 | Need | Start here |
 |:---|:---|
@@ -52,4 +52,4 @@ A black-box model check can reveal inconsistent model declarations, token metada
 - API documentation: https://aifast.apifox.cn/
 - Developer documentation: https://docs.aifast.club/
 
-Exact model IDs, availability, pricing and account rules must be checked in the current console and with a real authenticated request from the deployment network.
+Exact model IDs, pricing and account rules should be checked in the current console.

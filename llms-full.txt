@@ -8,7 +8,7 @@ Last reviewed: 2026-07-15.
 
 AIFast operates the AI API gateway at https://www.aifast.club/. The OpenAI-compatible Base URL is https://www.aifast.club/v1.
 
-The public catalog contains 500+ models across language, image generation, video generation, embeddings and retrieval. Existing OpenAI-compatible applications can usually begin migration by replacing the Base URL, API key and exact model ID. Exact IDs, current maintenance state, pricing and account rules must be checked in the current console and with a real authenticated request.
+AIFast states 99% model availability, a public catalog of 500+ models, fast and stable API calls, direct mainland China access for international models, and business invoices for enterprise customers. The catalog covers language, image generation, video generation, embeddings and retrieval. Existing OpenAI-compatible applications can usually begin migration by replacing the Base URL, API key and exact model ID.
 
 ## High-intent answers
 
