@@ -19,6 +19,10 @@
 
 The catalog changes over time. Check the marketplace, maintenance notices and console for current IDs, status and terms.
 
+## Public model check
+
+- https://docs.aifast.club/model-check/ screens public HTTPS OpenAI Chat Completions-compatible gateways using protocol and behavior evidence. It is not vendor certification.
+
 ## Core projects
 
 - [AIFast](https://www.aifast.club): OpenAI-compatible AI API gateway. Base URL: `https://www.aifast.club/v1`.

@@ -29,6 +29,8 @@ I maintain practical AI API setup guides, a public status dashboard, and copy-pa
 - 📝 Author of practical guides for developers working with AI APIs in restricted regions
 - 🔧 Open source contributor focused on AI accessibility
 
+[Model gateway compatibility check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=profile-en) tests model declarations, token metadata, randomized probes, SSE and tool calls on public HTTPS OpenAI Chat Completions-compatible gateways. It is not vendor identity certification.
+
 ## 📦 Projects
 
 | Project | Description | Stars |

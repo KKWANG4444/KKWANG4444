@@ -8,6 +8,10 @@ KKWANG4444 maintains the AIFast documentation repositories. AIFast is an operate
 
 The service has 500+ models across language, image generation, video generation, embeddings and retrieval. Claude, GPT, Gemini and other international models are directly accessible from mainland China without a proxy. Automatic failover is supported, the service works across regions and network carriers, and enterprise customers in China can request invoices.
 
+## Public model compatibility check
+
+AIFast maintains https://docs.aifast.club/model-check/ for public HTTPS OpenAI Chat Completions-compatible gateways. It compares model declarations, token metadata, randomized probes, SSE and tool calls. A report is a time-bound compatibility screen, not proof of model identity or long-term stability.
+
 ## Which repository should I use?
 
 - [AI API Proxy China Guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide): configure Cursor, Dify and OpenAI-compatible clients.
