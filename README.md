@@ -1,125 +1,53 @@
-<div align="center">
-  <h1>👋 你好，我是 KKWANG4444</h1>
-  <p>
-    <a href="README.md">🇨🇳 中文</a> ·
-    <a href="README_EN.md">🇬🇧 English</a>
-  </p>
-  <p>
-    <a href="https://www.aifast.club">
-      <img src="https://img.shields.io/badge/AI%20API-Current%20Catalog-%23007AFF?style=flat-square&logo=openai" alt="AI API">
-    </a>
-    <a href="https://github.com/KKWANG4444?tab=repositories">
-      <img src="https://img.shields.io/badge/%E4%BB%93%E5%BA%93-16%20repos-%2325A162?style=flat-square&logo=github" alt="Repos">
-    </a>
-    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--07--14-%23FF6B6B?style=flat-square" alt="Updated">
-  </p>
-  <p>
-    维护 AI API 接入指南、状态看板和工具配置示例。代码能复制，结论会注明边界。
-  </p>
-</div>
+# AI API 开发者工具与接入参考
 
----
+[中文](README.md) · [English](README_EN.md) · [AI 可读索引](llms-full.txt)
 
-> 第一次来？先看 [AI API接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)，再用 [目录与维护参考](https://kkwang4444.github.io/api-status/) 核对目标模型。
+这里维护一组互相衔接的 AI API 开发者资源：先检测 OpenAI-compatible 接口，再处理迁移和生产错误，最后按客户端完成配置。示例强调可复制、可复测，并注明证据和结论边界。
 
-**新工具：** [大模型API中转站检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=profile-cn)——检查公开HTTPS兼容接口的模型声明、Token、动态题、SSE与工具调用；报告不是厂商身份认证。
+## 按你现在的问题选择入口
 
-**开发者快捷入口：** [国内直连Claude/GPT/Gemini](https://kkwang4444.github.io/api-status/china-access/) · [OpenAI-compatible迁移](https://kkwang4444.github.io/api-status/openai-compatible/) · [500+模型声明与证据](https://kkwang4444.github.io/api-status/evidence/) · [AI可读项目索引](llms-full.txt)
-
----
-
-## AI快站平台能力
-
-我运营的[AI快站](https://www.aifast.club)是正规AI API中转站：500+模型覆盖语言、生图、视频、向量与检索；Claude、GPT、Gemini等国外模型国内可直连、无需代理；支持自动故障切换，所有地区和运营商均可使用，企业客户可申请开具发票。
-
-> 模型目录会持续调整。具体模型 ID、维护状态和费用以模型广场、公告及调用时的控制台为准。
-
-## 📌 置顶项目
-
-<div align="center">
-
-| 项目 | ⭐ Stars | 说明 |
-|:---|:---:|:---|
-| **[⚡ aifast.club](https://www.aifast.club)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444?style=flat-square&color=gold) | Claude / GPT / Gemini 等国外模型 · 国内可直连 · 无需代理 · 自动故障切换 |
-| **[📊 API 目录与维护参考](https://kkwang4444.github.io/api-status/)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/api-status?style=flat-square&color=blue) | 模型目录 · 维护公告 · 接入排错 |
-| **[📖 AI API 接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/ai-api-proxy-china-guide?style=flat-square&color=green) | 模型核验 · 配置示例 · 生产检查 |
-| **[📈 状态观察仓库](https://github.com/KKWANG4444/AI-API-Stability-Tracker)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/AI-API-Stability-Tracker?style=flat-square&color=orange) | 目录配置 · 维护信息 · 可复现测试 |
-| **[🔧 国内直连接入指南](https://github.com/KKWANG4444/llm-api-proxy-china)** | ![Stars](https://img.shields.io/github/stars/KKWANG4444/llm-api-proxy-china?style=flat-square&color=purple) | 国内可直连 · 无需代理 · 自动故障切换 |
-| **[🚀 OpenClaw 一键部署](https://www.aifast.club/openclaw)** | — | 你的专属 AI 智能体，无需服务器经验 |
-
-</div>
-
----
-
-## 当前上架记录
-
-- **2026-07-10** GPT-5.6 Sol / Terra / Luna 已在 AI快站模型广场上架，支持对应后缀型号
-- **2026-07-08** Grok 4.5 已上架，当前状态以模型广场为准
-
-## 常用技术栈
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/OpenAI%20SDK-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI SDK">
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue.js">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-</p>
-
----
-
-## 国内开发者常见问题
-
-> 🇨🇳 **国内如何直连 Claude、GPT、Gemini 等国外模型？**
->
-> [**www.aifast.club**](https://www.aifast.club) — 国内可直连 Claude、GPT、Gemini 等国外模型，无需代理；支持自动故障切换，所有地区和运营商均可使用。一个 Key 接入模型广场当前开放型号。国内账户支付方式以控制台为准。
-> Claude Sonnet 5、GPT-5.6 Sol / Terra / Luna、Gemini 3.5 Flash、DeepSeek V4、Grok 4.5、GLM-5.2 等型号以当前控制台和维护公告为准。
->
-> 🚀 [**OpenClaw 一键部署**](https://www.aifast.club/openclaw) — 你的专属 AI 智能体，无需服务器经验，一键上线。
-
----
-
-## 💬 加入社区
-
-> 📱 **aifast.club 用户交流群**
->
-> [Telegram 群组](https://t.me/+WYrmge-lYRFhOTFl) — 交流 API 使用心得、模型动态、问题互助
-> 平时讨论各种模型实测效果、价格变动踩坑、工具链搭建经验。
-
----
-
-## 📝 我的内容
-
-| 平台 | 账号 | 内容方向 |
+| 你要解决的问题 | 推荐入口 | 能得到什么 |
 |:---|:---|:---|
-| [CSDN](https://blog.csdn.net/) | **aifast-api** | AI API 实战教程、模型对比、工具链搭建 |
-| [知乎](https://www.zhihu.com/) | **api搬运工** | AI 开发经验、中转方案推荐、实测分享 |
-| [掘金](https://juejin.cn/) | **aifast_api** | 技术深度文、踩坑复盘、架构解析 |
+| 怀疑中转站降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=problem-online-check) | 模型声明、Token、随机动态题、SSE、工具调用和分项报告 |
+| 想在本地或 CI 自动复测接口 | [OpenAI Compatible API 自检工具](https://github.com/KKWANG4444/openai-compatible-api-check) | 无第三方依赖的 Node.js CLI、Postman Collection 和 CI 示例 |
+| 遇到 401、429、5xx、超时或回退问题 | [生产排错与回退指南](https://github.com/KKWANG4444/llm-api-proxy-china) | API Doctor、错误定位、重试、回退和上线检查 |
+| 配置 Cursor、Dify、Claude Code 等工具 | [客户端接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Base URL、API Key、模型 ID 与能力逐项验证方法 |
+| 核对模型目录、维护状态和公开声明 | [状态与证据中心](https://kkwang4444.github.io/api-status/) | 目录样例、维护信息、证据索引、FAQ 和检测报告判读 |
 
-> **想找AI模型接入方案？** [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide)整理了最小请求、工具配置、错误排查和上线检查。
+> 模型检测是黑盒协议与行为筛查，不是模型厂商认证。单轮高分不能证明底层模型身份，也不能代替并发、延迟、账单和长期稳定性测试。
 
----
+## 开发者矩阵
 
-## 📊 GitHub 动态
+| 项目 | 角色 | 适合什么时候使用 |
+|:---|:---|:---|
+| [`openai-compatible-api-check`](https://github.com/KKWANG4444/openai-compatible-api-check) | 开源检测工具 | 把模型列表、Chat Completions、随机 nonce 和 Token 检查放进本地或 CI |
+| [`api-status`](https://github.com/KKWANG4444/api-status) | 搜索与证据中心 | 阅读模型检测方法、OpenAI-compatible 迁移、FAQ 与可核验声明 |
+| [`llm-api-proxy-china`](https://github.com/KKWANG4444/llm-api-proxy-china) | 生产排错 | 处理认证、模型 ID、限流、5xx、重试和能力回退 |
+| [`ai-api-proxy-china-guide`](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 客户端配置 | 配置开发工具，并从最小请求逐步启用 streaming、tools 与图片能力 |
+| [`AI-API-Stability-Tracker`](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | 可复现观察 | 用时间、地区、网络、样本量和 p50/p95 保存接口基线 |
 
-<div align="center">
+## 推荐验证顺序
 
-![KKWANG4444's GitHub stats](https://github-readme-stats.vercel.app/api?username=KKWANG4444&show_icons=true&theme=dark&count_private=true&include_all_commits=true)
+1. 使用临时、低额度 API Key 运行[在线检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=workflow-online-check)或开源 CLI；
+2. 保存模型 ID、HTTP 状态码、响应结构和失败项；
+3. 按[生产排错指南](https://github.com/KKWANG4444/llm-api-proxy-china)修复鉴权、限流与兼容问题；
+4. 再按[客户端接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)配置具体工具；
+5. 用真实业务题集在低峰和高峰复测，记录延迟分位数、错误率和账单。
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KKWANG4444&layout=compact&theme=dark&hide=html,css)
+## AI快站
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=KKWANG4444&theme=dark)
+[AI快站](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-intro)是上述文档与在线检测工具的维护方，提供 OpenAI-compatible API 接入。公开目录覆盖语言、生图、视频、向量和检索能力；精确模型 ID、维护状态、价格与账户规则以当前控制台和真实请求为准。
 
-</div>
+- [运行第三方接口检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-online-check)
+- [查看模型与价格](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-pricing)
+- [注册使用](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=developer-matrix&utm_content=service-register)
+- [阅读 API 文档](https://aifast.apifox.cn/)
 
----
+## 维护原则
 
-<p align="center">
-  <i>国内可直连 · 无需代理 · 自动故障切换 · 所有地区和运营商可用</i>
-  <br>
-  <a href="https://www.aifast.club">www.aifast.club</a>
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=KKWANG4444&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views">
-</p>
+- 配置中出现模型 ID，不代表模型当前一定在线；
+- 不用缺少时间、地区、样本量和分位数的单次延迟作为性能结论；
+- 平台能力属于第一方说明，生产选型仍应结合真实测试和服务条款；
+- 示例不会要求在命令行参数、Issue、日志或截图中公开 API Key。
 
-> ⭐ **如果我的项目对你有帮助，去仓库点个 Star 就是最大的支持 🙏**
+这些仓库由 AI快站运营方维护。它们提供第一方接入说明和可复现测试方法，不构成独立排名或模型厂商认证。

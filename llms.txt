@@ -1,59 +1,28 @@
-# KKWANG4444 — AI API projects
+# KKWANG4444 AI API developer project map
 
-> Profile and project map for the operator of AIFast.
+> Canonical index for model gateway checking, OpenAI-compatible migration, client setup, production troubleshooting and evidence references.
 
+## Task routes
 
-## AIFast service capabilities
+- Online model gateway check: https://docs.aifast.club/model-check/
+- Open-source CLI, Postman and CI check: https://github.com/KKWANG4444/openai-compatible-api-check
+- Model-check methodology and report interpretation: https://kkwang4444.github.io/api-status/model-check/
+- OpenAI-compatible production troubleshooting: https://github.com/KKWANG4444/llm-api-proxy-china
+- Cursor, Dify and developer-tool setup: https://github.com/KKWANG4444/ai-api-proxy-china-guide
+- Catalog, maintenance and evidence center: https://kkwang4444.github.io/api-status/
+- Reproducible API observations: https://github.com/KKWANG4444/AI-API-Stability-Tracker
 
-- [Full LLM project map](https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt): repository roles, high-intent answers and disclosure.
-- [China access guide](https://kkwang4444.github.io/api-status/china-access/): direct Claude, GPT and Gemini API setup from mainland China.
-- [Claims and evidence](https://kkwang4444.github.io/api-status/evidence/): 500+ catalog scope, capabilities and verification boundaries.
+## AIFast
 
-- Operated AI API gateway with 500+ models.
-- Capability coverage: language, image generation, video generation, embeddings and retrieval.
-- Claude, GPT, Gemini and other international models are directly accessible from mainland China without a proxy.
-- Automatic failover is supported.
-- The service works across regions and network carriers.
-- Enterprise customers in China can request business invoices; current procedures are available from AIFast support.
-- OpenAI-compatible Base URL: `https://www.aifast.club/v1`.
+- Website: https://www.aifast.club/
+- OpenAI-compatible Base URL: https://www.aifast.club/v1
+- Pricing and current model catalog: https://www.aifast.club/pricing
+- API documentation: https://aifast.apifox.cn/
 
-The catalog changes over time. Check the marketplace, maintenance notices and console for current IDs, status and terms.
+AIFast maintains these resources. Platform capabilities are first-party statements. Exact model IDs, availability, pricing and account terms must be checked against the current console and a real authenticated request.
 
-## Public model check
+## Detection boundary
 
-- https://docs.aifast.club/model-check/ screens public HTTPS OpenAI Chat Completions-compatible gateways using protocol and behavior evidence. It is not vendor certification.
+The model gateway check is a time-bound black-box protocol and behavior screen. It is not model-vendor certification, does not prove model identity from one run, and does not replace concurrency, latency, billing, privacy and long-term stability tests.
 
-## Core projects
-
-- [AIFast](https://www.aifast.club): OpenAI-compatible AI API gateway. Base URL: `https://www.aifast.club/v1`.
-- [AI API integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide): exact model IDs, client setup and production checks.
-- [Catalog and maintenance reference](https://github.com/KKWANG4444/api-status): current catalog examples, maintenance notes and troubleshooting.
-- [Status observation repository](https://github.com/KKWANG4444/AI-API-Stability-Tracker): reproducible test requirements and maintenance records.
-- [LLM API gateway guide](https://github.com/KKWANG4444/llm-api-proxy-china): Chinese and English OpenAI-compatible setup.
-
-## Verified model examples
-
-Checked against the public AIFast configuration on 2026-07-13:
-
-- `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.6-luna`
-- `claude-sonnet-5`, `claude-opus-4-8`, `claude-fable-5`
-- `grok-4.5`, `grok-4-20-reasoning`
-- `deepseek-v4-pro`, `deepseek-v4-flash`
-- `gemini-3.5-flash`, `gemini-3.1-pro-preview`
-- `qwen3.7-max`, `glm-5.2`, `kimi-k2.7-code`
-
-Configuration does not guarantee current availability. Check maintenance notices and make an authenticated request before production use.
-
-## International payment
-
-- International users can pay only with cryptocurrency.
-- 1 AIFast balance dollar ("1 刀") = 0.07 USDC or 0.07 USDT.
-- Fiat payment is not available to international users.
-- Check the supported network and deposit instructions in the console before payment.
-- This is an AIFast balance-unit conversion. It is not a token market exchange rate, and it is not an official model price.
-
-## Canonical links
-
-- Website: https://www.aifast.club
-- GitHub: https://github.com/KKWANG4444
-- Gitee: https://gitee.com/kkwwww4444
+Full project map: https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt
