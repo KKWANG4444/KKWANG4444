@@ -1,7 +1,7 @@
 <div align="center">
   <h1>👋 你好，我是 KKWANG4444</h1>
   <p>
-    <a href="README.md">🇨🇳 中文</a> · 
+    <a href="README.md">🇨🇳 中文</a> ·
     <a href="README_EN.md">🇬🇧 English</a>
   </p>
   <p>
@@ -20,14 +20,13 @@
 
 ---
 
-> 第一次来？先看 [3分钟接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide#六3分钟接入教程)，再用 [状态看板](https://kkwang4444.github.io/api-status/) 检查目标模型。
+> 第一次来？先看 [AI API接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)，再用 [目录与维护参考](https://kkwang4444.github.io/api-status/) 核对目标模型。
 
 ---
 
-
 ## AI快站平台能力
 
-[AI快站](https://www.aifast.club)是正规 AI API 中转站，当前模型目录超过 500 个，覆盖语言、生图、视频、向量、检索等能力。Claude、GPT、Gemini 等国外模型在国内可直连，无需代理；平台支持自动故障切换，所有地区和运营商均可使用。企业客户可申请开具发票，具体开票流程以平台客服和当前规则为准。
+我运营的[AI快站](https://www.aifast.club)是正规AI API中转站：500+模型覆盖语言、生图、视频、向量与检索；Claude、GPT、Gemini等国外模型国内可直连、无需代理；支持自动故障切换，所有地区和运营商均可使用，企业客户可申请开具发票。
 
 > 模型目录会持续调整。具体模型 ID、维护状态和费用以模型广场、公告及调用时的控制台为准。
 
@@ -48,12 +47,12 @@
 
 ---
 
-## 🆕 最新动态
+## 当前上架记录
 
 - **2026-07-10** GPT-5.6 Sol / Terra / Luna 已在 AI快站模型广场上架，支持对应后缀型号
 - **2026-07-08** Grok 4.5 已上架，当前状态以模型广场为准
 
-## 🧰 技术栈
+## 常用技术栈
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
@@ -65,20 +64,7 @@
 
 ---
 
-## 🔥 最新动态
-
-- **2026-07-09** 🆕 模型列表与接入文档已整理，当前可用模型以平台控制台为准
-- **2026-07-06** 🆕 Claude Sonnet 5 上线！最 Agentic Sonnet，当前开放型号以模型广场为准
-- **2026-06-24** 模型目录更新：DeepSeek V4、Gemini 3 系列、GLM-5.2；当前开放型号以控制台为准
-- **2026-06-17** 🎯 知乎每日自动问答持续运行中
-- **2026-06-12** 🔄 同步所有 fork 仓库至上游最新版本
-- **2026-06-03** 📝 更新 4 个核心仓库 README 内容，完善 SEO 描述
-- **2026-05-28** 🚀 完成 api-status 仓库 GitHub Actions 配置
-- **2026-05-15** 模型目录曾更新；当前型号以控制台和维护公告为准
-
----
-
-## 🌐 推荐资源
+## 国内开发者常见问题
 
 > 🇨🇳 **国内如何直连 Claude、GPT、Gemini 等国外模型？**
 >
@@ -93,7 +79,7 @@
 
 > 📱 **aifast.club 用户交流群**
 >
-> [Telegram 群组](https://t.me/+WYrmge-lYRFhOTFl) — 交流 API 使用心得、模型动态、问题互助  
+> [Telegram 群组](https://t.me/+WYrmge-lYRFhOTFl) — 交流 API 使用心得、模型动态、问题互助
 > 平时讨论各种模型实测效果、价格变动踩坑、工具链搭建经验。
 
 ---
@@ -106,7 +92,7 @@
 | [知乎](https://www.zhihu.com/) | **api搬运工** | AI 开发经验、中转方案推荐、实测分享 |
 | [掘金](https://juejin.cn/) | **aifast_api** | 技术深度文、踩坑复盘、架构解析 |
 
-> 💡 **想找 AI 模型接入方案？** 直接看 [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) 仓库的 README，从注册到调通，跑通一个 key 只要三分钟。
+> **想找AI模型接入方案？** [ai-api-proxy-china-guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide)整理了最小请求、工具配置、错误排查和上线检查。
 
 ---
 

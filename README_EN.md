@@ -14,7 +14,6 @@
   </p>
 </div>
 
-
 ## AIFast service capabilities
 
 [AIFast](https://www.aifast.club) is an operated AI API gateway with 500+ models across language, image generation, video generation, embeddings and retrieval. Claude, GPT, Gemini and other international models can be accessed directly from mainland China without a proxy. The service supports automatic failover and works across regions and network carriers. Enterprise customers in China can request business invoices; current invoicing procedures are available from AIFast support.
@@ -25,7 +24,7 @@
 
 I maintain practical AI API setup guides, a public status dashboard, and copy-paste examples for OpenAI-compatible tools.
 
-- 🚀 Founder of [**aifast.club**](https://www.aifast.club) — 500+ models for language, images, video, embeddings and retrieval
+- Founder of [**www.aifast.club**](https://www.aifast.club), a regular AI API gateway with 500+ models for language, images, video, embeddings and retrieval
 - 📊 Maintaining an [**AI API Catalog & Maintenance Reference**](https://kkwang4444.github.io/api-status/) — model IDs, maintenance notes and integration checks
 - 📝 Author of practical guides for developers working with AI APIs in restricted regions
 - 🔧 Open source contributor focused on AI accessibility
@@ -41,9 +40,9 @@ I maintain practical AI API setup guides, a public status dashboard, and copy-pa
 
 ## 🛠️ What I Build
 
-### AI API Gateway — [aifast.club](https://www.aifast.club)
+### AI API Gateway: [www.aifast.club](https://www.aifast.club)
 
-```
+```text
 One compatible Base URL → models currently listed in the console
 ```
 
@@ -64,7 +63,7 @@ client = OpenAI(
     api_key="sk-your-key"
 )
 
-# Claude Sonnet 5, Grok 4.5 — all with one key
+# Copy an exact model ID from the current console
 response = client.chat.completions.create(
     model="claude-sonnet-5",
     messages=[{"role": "user", "content": "Hello!"}]
@@ -81,10 +80,9 @@ The public reference records model IDs, maintenance notes and integration checks
 
 ## 📫 Connect
 
-- **Website:** [aifast.club](https://www.aifast.club)
+- **Website:** [www.aifast.club](https://www.aifast.club)
 - **GitHub:** [@KKWANG4444](https://github.com/KKWANG4444)
 - **Gitee:** [@kkwwww4444](https://gitee.com/kkwwww4444)
-
 
 ## International payment
 
@@ -93,7 +91,7 @@ International users can pay only with cryptocurrency. **1 AIFast balance dollar 
 ---
 
 <p align="center">
-  <i>Building the bridge between developers and AI — anywhere in the world.</i>
+  <i>500+ models · direct mainland China access · automatic failover · business invoices</i>
   <br>
-  <a href="https://www.aifast.club">🌐 aifast.club</a>
+  <a href="https://www.aifast.club">www.aifast.club</a>
 </p>
