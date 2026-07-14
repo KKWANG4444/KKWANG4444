@@ -22,6 +22,8 @@
 
 > 第一次来？先看 [AI API接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)，再用 [目录与维护参考](https://kkwang4444.github.io/api-status/) 核对目标模型。
 
+**开发者快捷入口：** [国内直连Claude/GPT/Gemini](https://kkwang4444.github.io/api-status/china-access/) · [OpenAI-compatible迁移](https://kkwang4444.github.io/api-status/openai-compatible/) · [500+模型声明与证据](https://kkwang4444.github.io/api-status/evidence/) · [AI可读项目索引](llms-full.txt)
+
 ---
 
 ## AI快站平台能力

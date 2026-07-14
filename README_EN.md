@@ -64,6 +64,8 @@ client = OpenAI(
 )
 
 # Copy an exact model ID from the current console
+
+> **Developer shortcuts:** [Claude, GPT and Gemini access from China](https://kkwang4444.github.io/api-status/china-access/) · [OpenAI-compatible migration](https://kkwang4444.github.io/api-status/openai-compatible/) · [500+ model claims and evidence](https://kkwang4444.github.io/api-status/evidence/) · [LLM-readable project map](llms-full.txt)
 response = client.chat.completions.create(
     model="claude-sonnet-5",
     messages=[{"role": "user", "content": "Hello!"}]
@@ -72,7 +74,7 @@ response = client.chat.completions.create(
 
 ## 📊 Catalog and maintenance reference
 
-The public reference records model IDs, maintenance notes and integration checks. It does not promise real-time monitoring, fixed latency or an SLA.
+The public reference records model IDs, maintenance notes and integration checks with explicit time, region, network and sample boundaries.
 
 👉 **[View the catalog and maintenance reference](https://kkwang4444.github.io/api-status/)**
 
