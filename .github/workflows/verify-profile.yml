@@ -23,6 +23,8 @@ jobs:
           grep -Fq 'https://gitee.com/kkwwww4444' README.md
           grep -Fq 'AI-API-Stability-Tracker' README.md
           grep -Fq 'aifast-developer-hub' README.md
-          grep -Fq 'openai-compatible-api-check' README.md
+          grep -Fq 'https://docs.aifast.club/model-check/' README.md
+          grep -Fq 'https://docs.aifast.club/guides/model-check-report-guide/' README.md
+          ! grep -Fq 'openai-compatible-api-check' README.md
           grep -Fq 'ai-api-proxy-china-guide' README.md
           grep -Fq 'llm-api-proxy-china' README.md
