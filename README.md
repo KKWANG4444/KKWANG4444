@@ -18,6 +18,7 @@
     <a href="README.md">中文</a> ·
     <a href="README_EN.md">English</a> ·
     <a href="https://aifast.apifox.cn/">API 文档</a> ·
+    <a href="https://gitee.com/kkwwww4444">Gitee 国内镜像</a> ·
     <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-model-check">免费检测现有接口</a>
   </p>
   <p><code>Base URL: https://www.aifast.club/v1</code></p>

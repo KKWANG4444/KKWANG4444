@@ -7,7 +7,7 @@
     <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-pricing-en"><img src="https://img.shields.io/badge/Models-Pricing-E45D3F?style=for-the-badge" alt="Models and pricing"></a>
     <a href="https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-register-en"><img src="https://img.shields.io/badge/Create-Account-2563EB?style=for-the-badge" alt="Create an AIFast account"></a>
   </p>
-  <p><a href="README.md">中文</a> · <a href="README_EN.md">English</a> · <a href="https://aifast.apifox.cn/">API docs</a> · <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-model-check-en">Check an existing gateway</a></p>
+  <p><a href="README.md">中文</a> · <a href="README_EN.md">English</a> · <a href="https://aifast.apifox.cn/">API docs</a> · <a href="https://gitee.com/kkwwww4444">Gitee mirrors</a> · <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=github-acquisition&utm_content=hero-model-check-en">Check an existing gateway</a></p>
   <p><code>Base URL: https://www.aifast.club/v1</code></p>
 </div>
 
