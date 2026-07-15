@@ -1,0 +1,25 @@
+name: Verify profile matrix
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - name: Verify brand and repository entry points
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          grep -Fq 'https://www.aifast.club/' README.md
+          grep -Fq 'AI-API-Stability-Tracker' README.md
+          grep -Fq 'aifast-developer-hub' README.md
+          grep -Fq 'openai-compatible-api-check' README.md
+          grep -Fq 'ai-api-proxy-china-guide' README.md
+          grep -Fq 'llm-api-proxy-china' README.md
