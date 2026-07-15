@@ -38,8 +38,8 @@
 | [AI API integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Cursor, Dify, Claude Code and compatible client setup |
 | [Production troubleshooting and API Doctor](https://github.com/KKWANG4444/llm-api-proxy-china) | Authentication, rate limits, 5xx, timeout, retry and fallback |
 | [Status and evidence center](https://kkwang4444.github.io/api-status/) | Catalog examples, maintenance context, FAQ and evidence boundaries |
-| [OpenAI-compatible API Check](https://github.com/KKWANG4444/openai-compatible-api-check) | CLI, Postman Collection and CI smoke tests |
 | [Online model check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-check-en) | Itemized report for a public compatible gateway |
+| [Report interpretation](https://docs.aifast.club/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-report-guide-en) | Meaning, evidence boundaries and follow-up for each result |
 
 ## Evidence boundary
 
@@ -47,9 +47,8 @@ A black-box model check can reveal inconsistent model declarations, token metada
 
 ## Reproducible evidence
 
-- [Detection methodology](https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/docs/methodology.md)
-- [Report JSON Schema v2](https://raw.githubusercontent.com/KKWANG4444/openai-compatible-api-check/main/schema/report.schema.json)
-- [Example redacted report](https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/examples/report.example.json)
+- [Detection methodology](https://docs.aifast.club/guides/model-api-downgrade-detection/)
+- [Report interpretation](https://docs.aifast.club/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=profile-evidence-report-guide-en)
 - [Stability JSONL summarizer](https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py)
 - [Canonical AIFast brand facts](https://kkwang4444.github.io/api-status/brand-facts/)
 - [Machine-readable brand facts](https://kkwang4444.github.io/api-status/brand-facts.json)
