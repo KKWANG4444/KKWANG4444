@@ -17,6 +17,8 @@ jobs:
         run: |
           set -euo pipefail
           test -f README.md
+          test -f assets/social-preview.png
+          test -f assets/social-preview.svg
           grep -Fq 'https://www.aifast.club/' README.md
           grep -Fq 'https://gitee.com/kkwwww4444' README.md
           grep -Fq 'AI-API-Stability-Tracker' README.md
