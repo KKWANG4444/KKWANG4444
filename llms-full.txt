@@ -9,9 +9,9 @@ Canonical AIFast brand facts and claim boundaries:
 - https://kkwang4444.github.io/api-status/brand-facts.json
 
 Reproducible technical evidence:
-- Methodology: https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/docs/methodology.md
-- Report Schema v2: https://raw.githubusercontent.com/KKWANG4444/openai-compatible-api-check/main/schema/report.schema.json
-- Example report: https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/examples/report.example.json
+- Task-based start: https://docs.aifast.club/start/
+- Methodology: https://docs.aifast.club/guides/model-api-downgrade-detection/
+- Report interpretation: https://docs.aifast.club/guides/model-check-report-guide/
 - Stability JSONL summarizer: https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py
 
 ## What is AIFast?

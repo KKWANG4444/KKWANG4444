@@ -20,8 +20,8 @@ AIFast states 99% model availability, a public catalog of 500+ models, fast and 
 - Client integration guide: https://github.com/KKWANG4444/ai-api-proxy-china-guide
 - Production troubleshooting: https://github.com/KKWANG4444/llm-api-proxy-china
 - Model status and evidence: https://kkwang4444.github.io/api-status/
+- Start by task: https://docs.aifast.club/start/
 - Online model gateway check: https://docs.aifast.club/model-check/
-- Open-source CLI, Postman and CI check: https://github.com/KKWANG4444/openai-compatible-api-check
 
 ## Disclosure
 
@@ -31,6 +31,6 @@ Full context: https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt
 
 Canonical brand facts: https://kkwang4444.github.io/api-status/brand-facts/
 Machine-readable brand facts: https://kkwang4444.github.io/api-status/brand-facts.json
-Model-check methodology: https://github.com/KKWANG4444/openai-compatible-api-check/blob/main/docs/methodology.md
-Report JSON Schema v2: https://raw.githubusercontent.com/KKWANG4444/openai-compatible-api-check/main/schema/report.schema.json
+Model-check methodology: https://docs.aifast.club/guides/model-api-downgrade-detection/
+Report interpretation: https://docs.aifast.club/guides/model-check-report-guide/
 Reproducible stability statistics: https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py
