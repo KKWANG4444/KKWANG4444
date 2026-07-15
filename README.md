@@ -19,6 +19,7 @@
     <a href="README_EN.md">English</a> ·
     <a href="https://aifast.apifox.cn/">API 文档</a> ·
     <a href="https://gitee.com/kkwwww4444">Gitee 国内镜像</a> ·
+    <a href="https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer-acquisition&utm_content=hero-start">按需求开始接入</a> ·
     <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=hero-model-check">免费检测现有接口</a>
   </p>
   <p><code>Base URL: https://www.aifast.club/v1</code></p>
@@ -36,6 +37,7 @@
 | 迁移现有 OpenAI-compatible 项目 | [接入教程](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 先运行最小文本请求 |
 | 排查 401、429、5xx、超时和回退 | [生产排错指南](https://github.com/KKWANG4444/llm-api-proxy-china) | 保存状态码、响应体和模型 ID |
 | 怀疑中转接口降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check) | 使用临时、低额度 Key 生成分项报告 |
+| 不确定应从首次调用、工具迁移还是企业接入开始 | [按当前需求开始](https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer-acquisition&utm_content=need-start) | 选择对应路径并完成最小验证 |
 
 > Claude、GPT、Gemini 等国外模型支持国内直连，无需代理；一个账户即可统一接入当前开放模型。
 

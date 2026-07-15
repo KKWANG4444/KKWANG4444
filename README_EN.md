@@ -7,7 +7,7 @@
     <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-pricing-en"><img src="https://img.shields.io/badge/Models-Pricing-E45D3F?style=for-the-badge" alt="Models and pricing"></a>
     <a href="https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-register-en"><img src="https://img.shields.io/badge/Create-Account-2563EB?style=for-the-badge" alt="Create an AIFast account"></a>
   </p>
-  <p><a href="README.md">中文</a> · <a href="README_EN.md">English</a> · <a href="https://aifast.apifox.cn/">API docs</a> · <a href="https://gitee.com/kkwwww4444">Gitee mirrors</a> · <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=hero-model-check-en">Check an existing gateway</a></p>
+  <p><a href="README.md">中文</a> · <a href="README_EN.md">English</a> · <a href="https://aifast.apifox.cn/">API docs</a> · <a href="https://gitee.com/kkwwww4444">Gitee mirrors</a> · <a href="https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer-acquisition&utm_content=hero-start-en">Start by task</a> · <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=hero-model-check-en">Check an existing gateway</a></p>
   <p><code>Base URL: https://www.aifast.club/v1</code></p>
 </div>
 
@@ -23,6 +23,7 @@
 | Configure an OpenAI-compatible client | [Integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) |
 | Troubleshoot 401, 429, 5xx, timeouts or fallback | [Production troubleshooting](https://github.com/KKWANG4444/llm-api-proxy-china) |
 | Screen a gateway for routing or compatibility problems | [Online model gateway check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check-en) |
+| Choose between a first call, client migration, endpoint check or enterprise adoption | [Start from the matching workflow](https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer-acquisition&utm_content=need-start-en) |
 
 ## Start in three steps
 
