@@ -41,6 +41,8 @@
 | [Status and evidence center](https://kkwang4444.github.io/api-status/) | Catalog examples, maintenance context, FAQ and evidence boundaries |
 | [Online model check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-check-en) | Itemized report for a public compatible gateway |
 | [Report interpretation](https://docs.aifast.club/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-report-guide-en) | Meaning, evidence boundaries and follow-up for each result |
+| [Base URL checker](https://docs.aifast.club/tools/base-url-checker/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-base-url-checker-en) | Duplicated version paths, complete endpoint mistakes and final request URLs |
+| [Token cost calculator](https://docs.aifast.club/tools/api-cost-calculator/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-api-cost-calculator-en) | Current input, output, task-volume and retry cost estimates |
 
 ## Evidence boundary
 
@@ -50,6 +52,8 @@ A black-box model check can reveal inconsistent model declarations, token metada
 
 - [Detection methodology](https://docs.aifast.club/guides/model-api-downgrade-detection/)
 - [Report interpretation](https://docs.aifast.club/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=profile-evidence-report-guide-en)
+- [Base URL checker](https://docs.aifast.club/tools/base-url-checker/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-evidence-base-url-checker-en)
+- [Token cost calculator](https://docs.aifast.club/tools/api-cost-calculator/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-evidence-api-cost-calculator-en)
 - [Stability JSONL summarizer](https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py)
 - [Canonical AIFast brand facts](https://kkwang4444.github.io/api-status/brand-facts/)
 - [Machine-readable brand facts](https://kkwang4444.github.io/api-status/brand-facts.json)

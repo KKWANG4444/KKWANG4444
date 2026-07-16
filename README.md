@@ -83,6 +83,8 @@ print(response.choices[0].message.content)
 | [模型状态与证据中心](https://kkwang4444.github.io/api-status/) | 模型目录、维护信息、SEO/GEO 问答和核验入口 |
 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-check) | 对任意公开兼容接口生成分项检测报告 |
 | [检测报告判读](https://docs.aifast.club/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-report-guide) | 理解模型声明、Token、动态题、SSE 与工具调用结果 |
+| [Base URL 检查器](https://docs.aifast.club/tools/base-url-checker/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-base-url-checker) | 排查重复 `/v1`、完整端点误填和最终请求路径 |
+| [Token 成本计算器](https://docs.aifast.club/tools/api-cost-calculator/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-api-cost-calculator) | 按当前价格估算输入、输出、批量任务与重试成本 |
 
 ## 可复现技术证据
 
