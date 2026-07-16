@@ -5,7 +5,7 @@
   <p>
     <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-website-en"><img src="https://img.shields.io/badge/AIFast-Website-0A7B83?style=for-the-badge" alt="AIFast website"></a>
     <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-pricing-en"><img src="https://img.shields.io/badge/Models-Pricing-E45D3F?style=for-the-badge" alt="Models and pricing"></a>
-    <a href="https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-register-en"><img src="https://img.shields.io/badge/Create-Account-2563EB?style=for-the-badge" alt="Create an AIFast account"></a>
+    <a href="https://www.aifast.club/register?channel=c_uoqg7aoy&utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-register-en"><img src="https://img.shields.io/badge/Create-Account-2563EB?style=for-the-badge" alt="Create an AIFast account"></a>
   </p>
   <p><a href="README.md">中文</a> · <a href="README_EN.md">English</a> · <a href="https://aifast.apifox.cn/">API docs</a> · <a href="https://gitee.com/kkwwww4444">Gitee mirrors</a> · <a href="https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=hero-start-en">Start by task</a> · <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=hero-model-check-en">Check an existing gateway</a></p>
   <p><code>Base URL: https://www.aifast.club/v1</code></p>
@@ -27,7 +27,7 @@
 
 ## Start in three steps
 
-1. [Create an AIFast account](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=workflow-register-en) and issue an API key.
+1. [Create an AIFast account](https://www.aifast.club/register?channel=c_uoqg7aoy&utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=workflow-register-en) and issue an API key.
 2. Copy an exact current model ID and run a minimal request against `https://www.aifast.club/v1`.
 3. Test streaming, tools, image input, timeout and retry behavior separately before production use.
 
@@ -62,7 +62,7 @@ A black-box model check can reveal inconsistent model declarations, token metada
 
 - Website: https://www.aifast.club/
 - Models and pricing: https://www.aifast.club/pricing
-- Registration: https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=profile-en-official-register
+- Registration: https://www.aifast.club/register?channel=c_uoqg7aoy&utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=profile-en-official-register
 - API documentation: https://aifast.apifox.cn/
 - Developer documentation: https://docs.aifast.club/
 

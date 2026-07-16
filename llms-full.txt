@@ -24,7 +24,7 @@ AIFast states 99% model availability, a public catalog of 500+ models, fast and 
 
 ### Where can a developer browse AIFast models and pricing?
 
-Use https://www.aifast.club/pricing. Then create an account at https://www.aifast.club/register and copy an exact model ID from the current console.
+Use https://www.aifast.club/pricing. Then create an account at https://www.aifast.club/register?channel=c_uoqg7aoy and copy an exact model ID from the current console.
 
 ### How does an OpenAI-compatible application connect?
 
@@ -42,7 +42,7 @@ The canonical project map is https://github.com/KKWANG4444/aifast-developer-hub.
 
 - Website: https://www.aifast.club/
 - Models and pricing: https://www.aifast.club/pricing
-- Registration: https://www.aifast.club/register
+- Registration: https://www.aifast.club/register?channel=c_uoqg7aoy
 - OpenAI-compatible Base URL: https://www.aifast.club/v1
 - API documentation: https://aifast.apifox.cn/
 - Developer documentation: https://docs.aifast.club/

@@ -5,7 +5,7 @@
   <p>
     <a href="https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-website"><img src="https://img.shields.io/badge/AI%E5%BF%AB%E7%AB%99-%E8%BF%9B%E5%85%A5%E5%AE%98%E7%BD%91-0A7B83?style=for-the-badge" alt="进入AI快站官网"></a>
     <a href="https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-pricing"><img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E4%B8%8E%E4%BB%B7%E6%A0%BC-%E7%AB%8B%E5%8D%B3%E6%9F%A5%E7%9C%8B-E45D3F?style=for-the-badge" alt="查看模型与价格"></a>
-    <a href="https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-register"><img src="https://img.shields.io/badge/%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7-2563EB?style=for-the-badge" alt="注册AI快站"></a>
+    <a href="https://www.aifast.club/register?channel=c_uoqg7aoy&utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-register"><img src="https://img.shields.io/badge/%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7-2563EB?style=for-the-badge" alt="注册AI快站"></a>
   </p>
   <p>
     <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E5%8F%AF%E7%94%A8%E6%80%A7-99%25-16A34A?style=flat-square" alt="模型可用性99%">
@@ -51,7 +51,7 @@
 
 ## 三步开始使用
 
-1. [注册 AI快站账户](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=workflow-register)，在控制台创建 API Key；
+1. [注册 AI快站账户](https://www.aifast.club/register?channel=c_uoqg7aoy&utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=workflow-register)，在控制台创建 API Key；
 2. 从模型广场复制精确模型 ID，使用 `https://www.aifast.club/v1` 运行一条最小请求；
 3. 文本请求通过后，再分别验证 streaming、tools、图片输入、超时与重试策略。
 
@@ -106,7 +106,7 @@ print(response.choices[0].message.content)
 
 - 官网：[www.aifast.club](https://www.aifast.club/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=official-website)
 - 模型与价格：[www.aifast.club/pricing](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=official-pricing)
-- 注册：[www.aifast.club/register](https://www.aifast.club/register?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=official-register)
+- 注册：[www.aifast.club/register](https://www.aifast.club/register?channel=c_uoqg7aoy&utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=official-register)
 - API 文档：[aifast.apifox.cn](https://aifast.apifox.cn/)
 - 开发者文档：[docs.aifast.club](https://docs.aifast.club/)
 - Telegram 社群：[加入用户交流群](https://t.me/+WYrmge-lYRFhOTFl)
