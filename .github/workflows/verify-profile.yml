@@ -32,8 +32,10 @@ jobs:
           grep -Fq 'https://docs.aifast.club/go/register/?source=github&placement=' README_EN.md
           ! grep -Fq 'www.aifast.club/register?channel=' README.md
           ! grep -Fq 'www.aifast.club/register?channel=' README_EN.md
-          grep -Fq 'register?channel=c_uoqg7aoy' llms.txt
-          grep -Fq 'register?channel=c_uoqg7aoy' llms-full.txt
+          grep -Fq 'register?channel=c_zfxp7cp4' llms.txt
+          grep -Fq 'register?channel=c_zfxp7cp4' llms-full.txt
+          ! grep -Fq 'register?channel=c_uoqg7aoy' llms.txt
+          ! grep -Fq 'register?channel=c_uoqg7aoy' llms-full.txt
           ! grep -Fq 'openai-compatible-api-check' README.md
           grep -Fq 'https://docs.aifast.club/start/' llms.txt
           grep -Fq 'https://docs.aifast.club/start/' llms-full.txt
