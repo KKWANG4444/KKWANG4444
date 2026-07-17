@@ -21,7 +21,7 @@
 |:---|:---|
 | Browse Claude, GPT, Gemini, Grok, DeepSeek, Qwen, GLM, Kimi and other models | [Models and pricing](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-models-en) |
 | Configure an OpenAI-compatible client | [Integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) |
-| Configure a Codex custom provider or troubleshoot Responses API | [Codex API setup](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex-en) |
+| Configure a Codex custom provider or troubleshoot Responses API | [Codex API setup](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex-en) · [Codex gateway validation checklist](https://docs.aifast.club/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex-checklist-en) |
 | Troubleshoot 401, 429, 5xx, timeouts or fallback | [Production troubleshooting](https://github.com/KKWANG4444/llm-api-proxy-china) |
 | Screen a gateway for routing or compatibility problems | [Online model gateway check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check-en) |
 | Choose between a first call, client migration, endpoint check or enterprise adoption | [Start from the matching workflow](https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start-en) |
@@ -39,7 +39,7 @@
 | [AIFast Developer Hub](https://github.com/KKWANG4444/aifast-developer-hub) | Canonical route for model checks, migration, troubleshooting, client setup and evidence |
 | [AI API integration guide](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Codex, Cursor, Dify, Claude Code and compatible client setup |
 | [Production troubleshooting and API Doctor](https://github.com/KKWANG4444/llm-api-proxy-china) | Authentication, rate limits, 5xx, timeout, retry and fallback |
-| [Codex API setup and validation](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex-en) | Custom provider, Responses API, tool calls, context compaction and thread resume |
+| [Codex API setup](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex-en) · [Codex gateway validation checklist](https://docs.aifast.club/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex-checklist-en) | Custom provider, Responses API, tool calls, context compaction and thread resume |
 | [API stability evidence](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | JSONL samples, success rate, P50/P95 and status distribution |
 | [Status and evidence center](https://kkwang4444.github.io/api-status/) | Catalog examples, maintenance context, FAQ and evidence boundaries |
 | [Online model check](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-check-en) | Itemized report for a public compatible gateway |

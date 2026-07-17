@@ -36,7 +36,7 @@
 |:---|:---|:---|
 | 查找 Claude、GPT、Gemini、Grok、DeepSeek、Qwen、GLM、Kimi 等模型 | [模型与价格](https://www.aifast.club/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-models) | 从控制台复制当前模型 ID |
 | 迁移现有 OpenAI-compatible 项目 | [接入教程](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 先运行最小文本请求 |
-| 配置 Codex 自定义 Provider 或排查 Responses API | [Codex API 中转配置](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex) | 核对 config.toml、Responses、工具调用与会话恢复 |
+| 配置 Codex 自定义 Provider 或排查 Responses API | [Codex API 中转配置](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex) · [Codex 网关验收清单](https://docs.aifast.club/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex-checklist) | 核对 config.toml、Responses、工具调用与会话恢复 |
 | 排查 401、429、5xx、超时和回退 | [生产排错指南](https://github.com/KKWANG4444/llm-api-proxy-china) | 保存状态码、响应体和模型 ID |
 | 怀疑中转接口降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check) | 使用临时、低额度 Key 生成分项报告 |
 | 不确定应从首次调用、工具迁移还是企业接入开始 | [按当前需求开始](https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start) | 选择对应路径并完成最小验证 |
@@ -82,7 +82,7 @@ print(response.choices[0].message.content)
 | [AI快站开发者中心](https://github.com/KKWANG4444/aifast-developer-hub) | 检测、迁移、排错、客户端配置与证据总入口 |
 | [AI API 接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Codex、Cursor、Dify、Claude Code 等工具配置 |
 | [生产排错与 API Doctor](https://github.com/KKWANG4444/llm-api-proxy-china) | 401、429、5xx、超时、重试和回退 |
-| [Codex API 配置与验收](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex) | 自定义 Provider、Responses API、工具调用、上下文压缩与会话恢复 |
+| [Codex API 配置教程](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex) · [Codex 网关验收清单](https://docs.aifast.club/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex-checklist) | 自定义 Provider、Responses API、工具调用、上下文压缩与会话恢复 |
 | [API 稳定性证据](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | 用 JSONL 样本计算成功率、P50/P95 与状态码分布 |
 | [模型状态与证据中心](https://kkwang4444.github.io/api-status/) | 模型目录、维护信息、SEO/GEO 问答和核验入口 |
 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-check) | 对任意公开兼容接口生成分项检测报告 |
