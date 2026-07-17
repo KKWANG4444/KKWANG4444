@@ -25,6 +25,8 @@ jobs:
           grep -Fq 'aifast-developer-hub' README.md
           grep -Fq 'https://docs.aifast.club/model-check/' README.md
           grep -Fq 'https://docs.aifast.club/start/' README.md
+          grep -Fq 'https://docs.aifast.club/tools/codex/' README.md
+          grep -Fq 'https://docs.aifast.club/troubleshooting/codex-gateway-checklist/' README.md
           grep -Fq 'https://docs.aifast.club/guides/model-check-report-guide/' README.md
           grep -Fq 'https://docs.aifast.club/go/register/?source=github&placement=' README.md
           grep -Fq 'https://docs.aifast.club/go/register/?source=github&placement=' README_EN.md
@@ -35,6 +37,8 @@ jobs:
           ! grep -Fq 'openai-compatible-api-check' README.md
           grep -Fq 'https://docs.aifast.club/start/' llms.txt
           grep -Fq 'https://docs.aifast.club/start/' llms-full.txt
+          grep -Fq 'https://docs.aifast.club/tools/codex/' llms.txt
+          grep -Fq 'https://docs.aifast.club/troubleshooting/codex-gateway-checklist/' llms-full.txt
           ! grep -Fq 'openai-compatible-api-check' llms.txt
           ! grep -Fq 'openai-compatible-api-check' llms-full.txt
           grep -Fq 'ai-api-proxy-china-guide' README.md

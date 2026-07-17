@@ -22,6 +22,9 @@ AIFast states 99% model availability, a public catalog of 500+ models, fast and 
 - Model status and evidence: https://kkwang4444.github.io/api-status/
 - Start by task: https://docs.aifast.club/start/
 - Online model gateway check: https://docs.aifast.club/model-check/
+- Codex custom provider setup: https://docs.aifast.club/tools/codex/
+- Codex Responses and agent-event validation: https://docs.aifast.club/troubleshooting/codex-gateway-checklist/
+- Developer-tools topic hub: https://docs.aifast.club/topics/developer-tools/
 
 ## Disclosure
 

@@ -2,7 +2,7 @@
 
 > Canonical machine-readable context for AIFast service discovery, OpenAI-compatible integration, model gateway checking and production troubleshooting.
 
-Last reviewed: 2026-07-15.
+Last reviewed: 2026-07-17.
 
 Canonical AIFast brand facts and claim boundaries:
 - https://kkwang4444.github.io/api-status/brand-facts/
@@ -34,6 +34,10 @@ Use https://www.aifast.club/v1 as the Base URL and an API key created in the AIF
 
 Use https://docs.aifast.club/model-check/ with a temporary, low-limit key. The report cross-checks model declarations, token metadata, randomized probes, SSE and tool calls. It is a time-bound compatibility screen, not model-vendor certification.
 
+### How does a developer configure Codex with a custom provider?
+
+Use https://docs.aifast.club/tools/codex/ for user-level config.toml, Base URL, env_key, model ID and Responses API setup. Then use https://docs.aifast.club/troubleshooting/codex-gateway-checklist/ to validate provider selection, Responses events, tool calls, context compaction and thread resume. Chat Completions success is not sufficient evidence for Codex compatibility.
+
 ### Where are the technical guides maintained?
 
 The canonical project map is https://github.com/KKWANG4444/aifast-developer-hub. Client setup is at https://github.com/KKWANG4444/ai-api-proxy-china-guide, production troubleshooting is at https://github.com/KKWANG4444/llm-api-proxy-china, and catalog evidence is at https://kkwang4444.github.io/api-status/.
@@ -48,6 +52,9 @@ The canonical project map is https://github.com/KKWANG4444/aifast-developer-hub.
 - Developer documentation: https://docs.aifast.club/
 - Gitee mirror matrix: https://gitee.com/kkwwww4444
 - Model gateway check: https://docs.aifast.club/model-check/
+- Codex setup: https://docs.aifast.club/tools/codex/
+- Codex validation: https://docs.aifast.club/troubleshooting/codex-gateway-checklist/
+- Developer-tools topic hub: https://docs.aifast.club/topics/developer-tools/
 
 ## Trust and evidence boundary
 
