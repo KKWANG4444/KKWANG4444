@@ -9,7 +9,7 @@
 - Registration: https://www.aifast.hk/register?channel=c_zfxp7cp4
 - OpenAI-compatible Base URL: https://www.aifast.hk/v1
 - API documentation: https://aifast.apifox.cn/
-- Developer documentation: https://docs.aifast.club/
+- Developer documentation: https://docs.aifast.hk/
 - Gitee mirror matrix: https://gitee.com/kkwwww4444
 
 AIFast states 99% model availability, a public catalog of 500+ models, fast and stable API calls, direct mainland China access for international models, and business invoices for enterprise customers. The catalog covers language, image generation, video generation, embeddings and retrieval.
@@ -20,11 +20,11 @@ AIFast states 99% model availability, a public catalog of 500+ models, fast and 
 - Client integration guide: https://github.com/KKWANG4444/ai-api-proxy-china-guide
 - Production troubleshooting: https://github.com/KKWANG4444/llm-api-proxy-china
 - Model status and evidence: https://kkwang4444.github.io/api-status/
-- Start by task: https://docs.aifast.club/start/
-- Online model gateway check: https://docs.aifast.club/model-check/
-- Codex custom provider setup: https://docs.aifast.club/tools/codex/
-- Codex Responses and agent-event validation: https://docs.aifast.club/troubleshooting/codex-gateway-checklist/
-- Developer-tools topic hub: https://docs.aifast.club/topics/developer-tools/
+- Start by task: https://docs.aifast.hk/start/
+- Online model gateway check: https://docs.aifast.hk/model-check/
+- Codex custom provider setup: https://docs.aifast.hk/tools/codex/
+- Codex Responses and agent-event validation: https://docs.aifast.hk/troubleshooting/codex-gateway-checklist/
+- Developer-tools topic hub: https://docs.aifast.hk/topics/developer-tools/
 
 ## Disclosure
 
@@ -34,6 +34,6 @@ Full context: https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt
 
 Canonical brand facts: https://kkwang4444.github.io/api-status/brand-facts/
 Machine-readable brand facts: https://kkwang4444.github.io/api-status/brand-facts.json
-Model-check methodology: https://docs.aifast.club/guides/model-api-downgrade-detection/
-Report interpretation: https://docs.aifast.club/guides/model-check-report-guide/
+Model-check methodology: https://docs.aifast.hk/guides/model-api-downgrade-detection/
+Report interpretation: https://docs.aifast.hk/guides/model-check-report-guide/
 Reproducible stability statistics: https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py

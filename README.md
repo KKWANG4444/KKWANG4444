@@ -5,7 +5,7 @@
   <p>
     <a href="https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-website"><img src="https://img.shields.io/badge/AI%E5%BF%AB%E7%AB%99-%E8%BF%9B%E5%85%A5%E5%AE%98%E7%BD%91-0A7B83?style=for-the-badge" alt="进入AI快站官网"></a>
     <a href="https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-pricing"><img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E4%B8%8E%E4%BB%B7%E6%A0%BC-%E7%AB%8B%E5%8D%B3%E6%9F%A5%E7%9C%8B-E45D3F?style=for-the-badge" alt="查看模型与价格"></a>
-    <a href="https://docs.aifast.club/go/register/?source=github&placement=profile-hero-register"><img src="https://img.shields.io/badge/%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7-2563EB?style=for-the-badge" alt="注册AI快站"></a>
+    <a href="https://docs.aifast.hk/go/register/?source=github&placement=profile-hero-register"><img src="https://img.shields.io/badge/%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7-2563EB?style=for-the-badge" alt="注册AI快站"></a>
   </p>
   <p>
     <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E5%8F%AF%E7%94%A8%E6%80%A7-99%25-16A34A?style=flat-square" alt="模型可用性99%">
@@ -19,9 +19,9 @@
     <a href="README_EN.md">English</a> ·
     <a href="https://aifast.apifox.cn/">API 文档</a> ·
     <a href="https://gitee.com/kkwwww4444">Gitee 国内镜像</a> ·
-    <a href="https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=hero-start">按需求开始接入</a> ·
-    <a href="https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=hero-model-check">免费检测现有接口</a>
-    · <a href="https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-codex">Codex API 配置</a>
+    <a href="https://docs.aifast.hk/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=hero-start">按需求开始接入</a> ·
+    <a href="https://docs.aifast.hk/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=hero-model-check">免费检测现有接口</a>
+    · <a href="https://docs.aifast.hk/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-codex">Codex API 配置</a>
   </p>
   <p><code>Base URL: https://www.aifast.hk/v1</code></p>
 </div>
@@ -36,10 +36,10 @@
 |:---|:---|:---|
 | 查找 Claude、GPT、Gemini、Grok、DeepSeek、Qwen、GLM、Kimi 等模型 | [模型与价格](https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-models) | 从控制台复制当前模型 ID |
 | 迁移现有 OpenAI-compatible 项目 | [接入教程](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | 先运行最小文本请求 |
-| 配置 Codex 自定义 Provider 或排查 Responses API | [Codex API 中转配置](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex) · [Codex 网关验收清单](https://docs.aifast.club/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex-checklist) | 核对 config.toml、Responses、工具调用与会话恢复 |
+| 配置 Codex 自定义 Provider 或排查 Responses API | [Codex API 中转配置](https://docs.aifast.hk/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex) · [Codex 网关验收清单](https://docs.aifast.hk/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=need-codex-checklist) | 核对 config.toml、Responses、工具调用与会话恢复 |
 | 排查 401、429、5xx、超时和回退 | [生产排错指南](https://github.com/KKWANG4444/llm-api-proxy-china) | 保存状态码、响应体和模型 ID |
-| 怀疑中转接口降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check) | 使用临时、低额度 Key 生成分项报告 |
-| 不确定应从首次调用、工具迁移还是企业接入开始 | [按当前需求开始](https://docs.aifast.club/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start) | 选择对应路径并完成最小验证 |
+| 怀疑中转接口降智、套壳或协议不完整 | [在线模型检测](https://docs.aifast.hk/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check) | 使用临时、低额度 Key 生成分项报告 |
+| 不确定应从首次调用、工具迁移还是企业接入开始 | [按当前需求开始](https://docs.aifast.hk/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start) | 选择对应路径并完成最小验证 |
 
 > Claude、GPT、Gemini 等国外模型支持国内直连，无需代理；一个账户即可统一接入当前开放模型。
 
@@ -53,7 +53,7 @@
 
 ## 三步开始使用
 
-1. [注册 AI快站账户](https://docs.aifast.club/go/register/?source=github&placement=profile-workflow-register)，在控制台创建 API Key；
+1. [注册 AI快站账户](https://docs.aifast.hk/go/register/?source=github&placement=profile-workflow-register)，在控制台创建 API Key；
 2. 从模型广场复制精确模型 ID，使用 `https://www.aifast.hk/v1` 运行一条最小请求；
 3. 文本请求通过后，再分别验证 streaming、tools、图片输入、超时与重试策略。
 
@@ -82,21 +82,21 @@ print(response.choices[0].message.content)
 | [AI快站开发者中心](https://github.com/KKWANG4444/aifast-developer-hub) | 检测、迁移、排错、客户端配置与证据总入口 |
 | [AI API 接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) | Codex、Cursor、Dify、Claude Code 等工具配置 |
 | [生产排错与 API Doctor](https://github.com/KKWANG4444/llm-api-proxy-china) | 401、429、5xx、超时、重试和回退 |
-| [Codex API 配置教程](https://docs.aifast.club/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex) · [Codex 网关验收清单](https://docs.aifast.club/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex-checklist) | 自定义 Provider、Responses API、工具调用、上下文压缩与会话恢复 |
+| [Codex API 配置教程](https://docs.aifast.hk/tools/codex/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex) · [Codex 网关验收清单](https://docs.aifast.hk/troubleshooting/codex-gateway-checklist/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=developer-codex-checklist) | 自定义 Provider、Responses API、工具调用、上下文压缩与会话恢复 |
 | [API 稳定性证据](https://github.com/KKWANG4444/AI-API-Stability-Tracker) | 用 JSONL 样本计算成功率、P50/P95 与状态码分布 |
 | [模型状态与证据中心](https://kkwang4444.github.io/api-status/) | 模型目录、维护信息、SEO/GEO 问答和核验入口 |
-| [在线模型检测](https://docs.aifast.club/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-check) | 对任意公开兼容接口生成分项检测报告 |
+| [在线模型检测](https://docs.aifast.hk/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-check) | 对任意公开兼容接口生成分项检测报告 |
 | [检测规则与报告 Schema](https://github.com/KKWANG4444/openai-compatible-api-check) | 公开协议检查、证据边界和回归测试，供技术审计；普通用户仍在网页检测 |
-| [检测报告判读](https://docs.aifast.club/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-report-guide) | 理解模型声明、Token、动态题、SSE 与工具调用结果 |
-| [Base URL 检查器](https://docs.aifast.club/tools/base-url-checker/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-base-url-checker) | 排查重复 `/v1`、完整端点误填和最终请求路径 |
-| [Token 成本计算器](https://docs.aifast.club/tools/api-cost-calculator/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-api-cost-calculator) | 按当前价格估算输入、输出、批量任务与重试成本 |
+| [检测报告判读](https://docs.aifast.hk/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=developer-report-guide) | 理解模型声明、Token、动态题、SSE 与工具调用结果 |
+| [Base URL 检查器](https://docs.aifast.hk/tools/base-url-checker/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-base-url-checker) | 排查重复 `/v1`、完整端点误填和最终请求路径 |
+| [Token 成本计算器](https://docs.aifast.hk/tools/api-cost-calculator/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-api-cost-calculator) | 按当前价格估算输入、输出、批量任务与重试成本 |
 
 ## 可复现技术证据
 
 | 证据 | 解决什么问题 |
 |:---|:---|
-| [网站检测方法](https://docs.aifast.club/guides/model-api-downgrade-detection/) | 说明协议、元数据、Token、动态题各自能证明什么、不能证明什么 |
-| [报告判读教程](https://docs.aifast.club/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=profile-evidence-report-guide) | 解释分项结果、误判边界和后续复测方法 |
+| [网站检测方法](https://docs.aifast.hk/guides/model-api-downgrade-detection/) | 说明协议、元数据、Token、动态题各自能证明什么、不能证明什么 |
+| [报告判读教程](https://docs.aifast.hk/guides/model-check-report-guide/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=profile-evidence-report-guide) | 解释分项结果、误判边界和后续复测方法 |
 | [稳定性 JSONL 统计工具](https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py) | 从请求样本计算成功率、P50/P95 和状态码分布 |
 | [AI快站品牌事实](https://kkwang4444.github.io/api-status/brand-facts/) | 统一解释 99%、500+、国内直连、发票与核验边界 |
 | [机器可读品牌事实](https://kkwang4444.github.io/api-status/brand-facts.json) | 供搜索引擎、AI 助手和自动化程序引用 |
@@ -111,9 +111,9 @@ print(response.choices[0].message.content)
 
 - 官网：[www.aifast.hk](https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=official-website)
 - 模型与价格：[www.aifast.hk/pricing](https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=official-pricing)
-- 注册：[www.aifast.hk/register](https://docs.aifast.club/go/register/?source=github&placement=profile-official-register)
+- 注册：[www.aifast.hk/register](https://docs.aifast.hk/go/register/?source=github&placement=profile-official-register)
 - API 文档：[aifast.apifox.cn](https://aifast.apifox.cn/)
-- 开发者文档：[docs.aifast.club](https://docs.aifast.club/)
+- 开发者文档：[docs.aifast.hk](https://docs.aifast.hk/)
 - Telegram 社群：[加入用户交流群](https://t.me/+WYrmge-lYRFhOTFl)
 
 ---
