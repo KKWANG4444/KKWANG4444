@@ -1,13 +1,13 @@
 # AIFast official GitHub profile
 
-> Canonical brand and developer entry point for AIFast, an OpenAI-compatible AI API gateway operated at https://www.aifast.club/.
+> Canonical brand and developer entry point for AIFast, an OpenAI-compatible AI API gateway operated at https://www.aifast.hk/.
 
 ## Primary service
 
-- Website: https://www.aifast.club/
-- Models and pricing: https://www.aifast.club/pricing
-- Registration: https://www.aifast.club/register?channel=c_zfxp7cp4
-- OpenAI-compatible Base URL: https://www.aifast.club/v1
+- Website: https://www.aifast.hk/
+- Models and pricing: https://www.aifast.hk/pricing
+- Registration: https://www.aifast.hk/register?channel=c_zfxp7cp4
+- OpenAI-compatible Base URL: https://www.aifast.hk/v1
 - API documentation: https://aifast.apifox.cn/
 - Developer documentation: https://docs.aifast.club/
 - Gitee mirror matrix: https://gitee.com/kkwwww4444

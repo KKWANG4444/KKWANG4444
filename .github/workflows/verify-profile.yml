@@ -19,7 +19,7 @@ jobs:
           test -f README.md
           test -f assets/social-preview.png
           test -f assets/social-preview.svg
-          grep -Fq 'https://www.aifast.club/' README.md
+          grep -Fq 'https://www.aifast.hk/' README.md
           grep -Fq 'https://gitee.com/kkwwww4444' README.md
           grep -Fq 'AI-API-Stability-Tracker' README.md
           grep -Fq 'aifast-developer-hub' README.md
@@ -31,8 +31,8 @@ jobs:
           grep -Fq 'https://docs.aifast.club/go/register/?source=github&placement=' README.md
           grep -Fq 'https://docs.aifast.club/en/payment/?utm_source=github' README_EN.md
           grep -Fq 'utm_campaign=international-payment' README_EN.md
-          ! grep -Fq 'www.aifast.club/register?channel=' README.md
-          ! grep -Fq 'www.aifast.club/register?channel=' README_EN.md
+          ! grep -Fq 'www.aifast.hk/register?channel=' README.md
+          ! grep -Fq 'www.aifast.hk/register?channel=' README_EN.md
           grep -Fq 'register?channel=c_zfxp7cp4' llms.txt
           grep -Fq 'register?channel=c_zfxp7cp4' llms-full.txt
           ! grep -Fq 'register?channel=c_uoqg7aoy' llms.txt

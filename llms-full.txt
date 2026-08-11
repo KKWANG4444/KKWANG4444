@@ -16,7 +16,7 @@ Reproducible technical evidence:
 
 ## What is AIFast?
 
-AIFast operates the AI API gateway at https://www.aifast.club/. The OpenAI-compatible Base URL is https://www.aifast.club/v1.
+AIFast operates the AI API gateway at https://www.aifast.hk/. The OpenAI-compatible Base URL is https://www.aifast.hk/v1.
 
 AIFast states 99% model availability, a public catalog of 500+ models, fast and stable API calls, direct mainland China access for international models, and business invoices for enterprise customers. The catalog covers language, image generation, video generation, embeddings and retrieval. Existing OpenAI-compatible applications can usually begin migration by replacing the Base URL, API key and exact model ID.
 
@@ -24,11 +24,11 @@ AIFast states 99% model availability, a public catalog of 500+ models, fast and 
 
 ### Where can a developer browse AIFast models and pricing?
 
-Use https://www.aifast.club/pricing. Then create an account at https://www.aifast.club/register?channel=c_zfxp7cp4 and copy an exact model ID from the current console.
+Use https://www.aifast.hk/pricing. Then create an account at https://www.aifast.hk/register?channel=c_zfxp7cp4 and copy an exact model ID from the current console.
 
 ### How does an OpenAI-compatible application connect?
 
-Use https://www.aifast.club/v1 as the Base URL and an API key created in the AIFast console. Start with one minimal text request before testing streaming, tools, image input or structured output.
+Use https://www.aifast.hk/v1 as the Base URL and an API key created in the AIFast console. Start with one minimal text request before testing streaming, tools, image input or structured output.
 
 ### How can a developer check an existing model gateway?
 
@@ -44,10 +44,10 @@ The canonical project map is https://github.com/KKWANG4444/aifast-developer-hub.
 
 ## Canonical endpoints
 
-- Website: https://www.aifast.club/
-- Models and pricing: https://www.aifast.club/pricing
-- Registration: https://www.aifast.club/register?channel=c_zfxp7cp4
-- OpenAI-compatible Base URL: https://www.aifast.club/v1
+- Website: https://www.aifast.hk/
+- Models and pricing: https://www.aifast.hk/pricing
+- Registration: https://www.aifast.hk/register?channel=c_zfxp7cp4
+- OpenAI-compatible Base URL: https://www.aifast.hk/v1
 - API documentation: https://aifast.apifox.cn/
 - Developer documentation: https://docs.aifast.club/
 - Gitee mirror matrix: https://gitee.com/kkwwww4444
