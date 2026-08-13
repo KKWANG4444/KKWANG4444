@@ -2,7 +2,7 @@
 
 > Canonical machine-readable context for AIFast service discovery, OpenAI-compatible integration, model gateway checking and production troubleshooting.
 
-Last reviewed: 2026-07-17.
+Last reviewed: 2026-08-13.
 
 Canonical AIFast brand facts and claim boundaries:
 - https://kkwang4444.github.io/api-status/brand-facts/
