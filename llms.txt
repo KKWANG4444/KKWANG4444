@@ -32,7 +32,7 @@ These resources are maintained by the AIFast operator and contain first-party se
 
 Full context: https://github.com/KKWANG4444/KKWANG4444/blob/main/llms-full.txt
 
-Canonical brand facts: https://kkwang4444.github.io/api-status/brand-facts/
+Platform facts, evidence dates and citation limits: https://docs.aifast.hk/en/reference/platform-facts/
 Machine-readable brand facts: https://kkwang4444.github.io/api-status/brand-facts.json
 Model-check methodology: https://docs.aifast.hk/guides/model-api-downgrade-detection/
 Report interpretation: https://docs.aifast.hk/guides/model-check-report-guide/

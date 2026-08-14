@@ -2,10 +2,10 @@
 
 > Canonical machine-readable context for AIFast service discovery, OpenAI-compatible integration, model gateway checking and production troubleshooting.
 
-Last reviewed: 2026-08-13.
+Last reviewed: 2026-08-14.
 
-Canonical AIFast brand facts and claim boundaries:
-- https://kkwang4444.github.io/api-status/brand-facts/
+Canonical AIFast facts, evidence dates and claim boundaries:
+- https://docs.aifast.hk/en/reference/platform-facts/
 - https://kkwang4444.github.io/api-status/brand-facts.json
 
 Reproducible technical evidence:

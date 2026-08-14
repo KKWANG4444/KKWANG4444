@@ -59,7 +59,7 @@ A black-box model check can reveal inconsistent model declarations, token metada
 - [Base URL checker](https://docs.aifast.hk/en/tools/base-url-checker/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-evidence-base-url-checker-en)
 - [Token cost calculator](https://docs.aifast.hk/en/tools/api-cost-calculator/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-evidence-api-cost-calculator-en)
 - [Stability JSONL summarizer](https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py)
-- [Canonical AIFast brand facts](https://kkwang4444.github.io/api-status/brand-facts/)
+- [Platform facts, evidence dates and citation limits](https://docs.aifast.hk/en/reference/platform-facts/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-evidence-platform-facts-en)
 - [Machine-readable brand facts](https://kkwang4444.github.io/api-status/brand-facts.json)
 
 ## Canonical links
