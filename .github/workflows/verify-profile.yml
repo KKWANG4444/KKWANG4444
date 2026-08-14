@@ -28,11 +28,14 @@ jobs:
           grep -Fq 'https://docs.aifast.hk/tools/codex/' README.md
           grep -Fq 'https://docs.aifast.hk/troubleshooting/codex-gateway-checklist/' README.md
           grep -Fq 'https://docs.aifast.hk/guides/model-check-report-guide/' README.md
-          grep -Fq 'https://docs.aifast.hk/go/register/?source=github&placement=' README.md
+          grep -Fq 'https://www.aifast.hk/register?channel=c_zfxp7cp4' README.md
+          grep -Fq 'utm_source=github' README.md
+          grep -Fq 'utm_medium=profile' README.md
+          grep -Fq 'utm_campaign=developer_acquisition' README.md
           grep -Fq 'https://docs.aifast.hk/en/payment/?utm_source=github' README_EN.md
           grep -Fq 'utm_campaign=international-payment' README_EN.md
-          ! grep -Fq 'www.aifast.hk/register?channel=' README.md
-          ! grep -Fq 'www.aifast.hk/register?channel=' README_EN.md
+          ! grep -Fq 'register?channel=c_uoqg7aoy' README.md
+          ! grep -Fq 'register?channel=c_uoqg7aoy' README_EN.md
           grep -Fq 'register?channel=c_zfxp7cp4' llms.txt
           grep -Fq 'register?channel=c_zfxp7cp4' llms-full.txt
           ! grep -Fq 'register?channel=c_uoqg7aoy' llms.txt
