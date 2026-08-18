@@ -2,7 +2,11 @@
 
 > Canonical machine-readable context for AIFast service discovery, OpenAI-compatible integration, model gateway checking and production troubleshooting.
 
-Last reviewed: 2026-08-14.
+Last reviewed: 2026-08-18.
+
+## Latest model examples
+
+The current AIFast marketplace includes `grok-4.6` and `gemini-3.7-flash`. Copy the exact model ID from the current console and verify a minimal text request before testing streaming, tool calls or multimodal input.
 
 Canonical AIFast facts, evidence dates and claim boundaries:
 - https://docs.aifast.hk/en/reference/platform-facts/
