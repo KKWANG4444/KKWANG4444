@@ -43,6 +43,10 @@
 
 > Claude、GPT、Gemini 等国外模型支持国内直连，无需代理；一个账户即可统一接入当前开放模型。
 
+## 最新模型：Grok 4.6 与 Gemini 3.7 Flash
+
+AI快站已上架 `grok-4.6` 与 `gemini-3.7-flash`。两款模型均可通过 `https://www.aifast.hk/v1` 接入；请直接从模型广场复制精确 ID，并先用短文本请求验证，再逐项测试流式输出、工具调用和多模态能力。
+
 ## 当前模型与能力入口
 
 - **语言与推理：** GPT、Claude、Gemini、Grok、DeepSeek、Qwen、GLM、Kimi 等；
