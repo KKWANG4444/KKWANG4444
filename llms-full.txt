@@ -6,7 +6,7 @@ Last reviewed: 2026-09-01.
 
 ## Latest model examples
 
-The current AIFast marketplace includes `glm-5.3`, announced on 2026-08-19, along with `grok-4.6` and `gemini-3.7-flash`. Copy the exact model ID from the current console and verify a minimal text request before testing streaming, tool calls or multimodal input.
+The current AIFast marketplace includes `gpt-6-astra`, along with `glm-5.3`, `grok-4.6` and `gemini-3.7-flash`. GPT-6 Astra uses the model ID `gpt-6-astra`; copy the exact ID from the current console and verify a minimal request before production use. Copy the exact model ID from the current console and verify a minimal text request before testing streaming, tool calls or multimodal input.
 
 Canonical AIFast facts, evidence dates and claim boundaries:
 - https://docs.aifast.hk/en/reference/platform-facts/
