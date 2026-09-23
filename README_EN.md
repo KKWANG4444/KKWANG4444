@@ -26,13 +26,9 @@
 | Screen a gateway for routing or compatibility problems | [Online model gateway check](https://docs.aifast.hk/en/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check-en) |
 | Choose between a first call, client migration, endpoint check or enterprise adoption | [Start from the matching workflow](https://docs.aifast.hk/en/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start-en) |
 
-## Latest model: GPT-6 Astra
+## Latest models: GPT-6 Sol, GPT-6 Luna and Claude Opus 5.5
 
-Current model ID: `gpt-6-astra`. Check the marketplace for current status before production use.
-
-Previous model: GLM-5.3
-
-AIFast announced `glm-5.3` on 2026-08-19. Copy this exact model ID from the current catalog, run a minimal text request, and then validate streaming or tool calls if your workload needs them.
+Current model IDs: `gpt-6-sol`, `gpt-6-luna`, and `claude-opus-5-5`. All three are now listed in the AIFast catalog. Copy the exact IDs from the marketplace and run a minimal request before production use.
 
 ## Start in three steps
 
