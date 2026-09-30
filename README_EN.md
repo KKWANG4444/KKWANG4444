@@ -26,9 +26,9 @@
 | Screen a gateway for routing or compatibility problems | [Online model gateway check](https://docs.aifast.hk/en/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check-en) |
 | Choose between a first call, client migration, endpoint check or enterprise adoption | [Start from the matching workflow](https://docs.aifast.hk/en/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start-en) |
 
-## Latest models: GPT-6 Sol, GPT-6 Luna and Claude Opus 5.5
+## Latest models: Claude Sonnet 5.5 and GPT-6.1 Sol
 
-Current model IDs: `gpt-6-sol`, `gpt-6-luna`, and `claude-opus-5-5`. All three are now listed in the AIFast catalog. Copy the exact IDs from the marketplace and run a minimal request before production use.
+Current model IDs: `claude-sonnet-5-5` and `gpt-6.1-sol`. Both are now listed in the AIFast catalog. Copy the exact IDs from the marketplace and run a minimal request before production use.
 
 ## Start in three steps
 

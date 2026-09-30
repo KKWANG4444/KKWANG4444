@@ -43,9 +43,9 @@
 
 > Claude、GPT、Gemini 等国外模型支持国内直连，无需代理；一个账户即可统一接入当前开放模型。
 
-## 最新模型：GPT-6 Sol、GPT-6 Luna 与 Claude Opus 5.5
+## 最新模型：Claude Sonnet 5.5 与 GPT-6.1 Sol
 
-当前模型 ID：`gpt-6-sol`、`gpt-6-luna`、`claude-opus-5-5`。三者均已在 AI快站上架；生产使用前请从模型广场复制精确 ID，并先完成最小请求验证。
+当前模型 ID：`claude-sonnet-5-5`、`gpt-6.1-sol`。两者均已在 AI快站上架；生产使用前请从模型广场复制精确 ID，并先完成最小请求验证。
 
 `gpt-6-astra`、`grok-4.7` 与 `gemini-3.7-flash` 也已在模型广场提供。
 

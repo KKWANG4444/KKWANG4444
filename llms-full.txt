@@ -2,7 +2,9 @@
 
 > Canonical machine-readable context for AIFast service discovery, OpenAI-compatible integration, model gateway checking and production troubleshooting.
 
-Last reviewed: 2026-09-01.
+Last reviewed: 2026-09-30.
+
+Current model launch: `claude-sonnet-5-5` and `gpt-6.1-sol` are listed in the AIFast catalog. Verify current status and optional protocol support with a real request.
 
 ## Latest model examples
 
