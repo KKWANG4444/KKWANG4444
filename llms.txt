@@ -6,7 +6,7 @@
 
 - Website: https://www.aifast.hk/
 - Models and pricing: https://www.aifast.hk/pricing
-- Registration: https://www.aifast.hk/register?channel=c_zfxp7cp4
+- Registration: https://www.aifast.hk/register?channel=c_zfxp7cp4&utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-llms-register
 - OpenAI-compatible Base URL: https://www.aifast.hk/v1
 - API documentation: https://aifast.apifox.cn/
 - Developer documentation: https://docs.aifast.hk/
