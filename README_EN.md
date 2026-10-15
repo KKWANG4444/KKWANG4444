@@ -26,6 +26,16 @@
 | Screen a gateway for routing or compatibility problems | [Online model gateway check](https://docs.aifast.hk/en/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check-en) |
 | Choose between a first call, client migration, endpoint check or enterprise adoption | [Start from the matching workflow](https://docs.aifast.hk/en/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start-en) |
 
+## Gemini 4 Argon launch (checked 2026-10-15)
+
+AIFast [announced the listing](https://www.aifast.hk/api/status) of `gemini-4-argon` on 2026-10-14. The current [catalog](https://www.aifast.hk/pricing) marks it `available: true` and lists `gemini` and `openai` protocols. The OpenAI-compatible Base URL is `https://www.aifast.hk/v1`.
+
+[Google's model documentation](https://ai.google.dev/gemini-api/docs/models/gemini-4-argon) describes Argon as a flagship reasoning model for complex software engineering, mathematics, science and multi-step agents. Its 1,048,576-token unified context budget is shared by input, thinking and output. This is not a promise of 1M output through the gateway; Google's long decode requires a dedicated workflow.
+
+This is listing and catalog evidence, not an inference test or stability benchmark. No authenticated inference request was run for this update, and it supplies no Argon success rate, latency result or long-term SLA. Check the current console for pricing and limits, then test protocol features independently.
+
+[Check an existing gateway with a temporary, low-limit key](https://docs.aifast.hk/model-check/?utm_source=github&utm_medium=profile&utm_campaign=gemini-4-argon-launch&utm_content=profile-readme-en), then validate text, streaming and tools from your deployment network.
+
 ## Latest models: Claude Sonnet 5.5 and GPT-6.1 Sol
 
 Current model IDs: `claude-sonnet-5-5` and `gpt-6.1-sol`. Both are now listed in the AIFast catalog. Copy the exact IDs from the marketplace and run a minimal request before production use.
