@@ -1,7 +1,9 @@
 <div align="center">
   <img src="https://kkwang4444.github.io/api-status/assets/img/logo.png" width="96" height="96" alt="AIFast logo">
   <h1>AIFast | One API for global and Chinese AI models</h1>
-  <p><strong>99% model availability · 500+ models · fast and stable · direct mainland China access · business invoices</strong></p>
+  <p><strong>99% model availability (operator claim) · 500+ models · fast and stable · direct mainland China access · business invoices</strong></p>
+
+<p>The 99% figure is an operator claim, not a measured result from this repository or an independent SLA. Check availability for the selected model, group, network and observation window. Source and scope: https://docs.aifast.hk/en/reference/platform-facts/</p>
   <p>
     <a href="https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-website-en"><img src="https://img.shields.io/badge/AIFast-Website-0A7B83?style=for-the-badge" alt="AIFast website"></a>
     <a href="https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-pricing-en"><img src="https://img.shields.io/badge/Models-Pricing-E45D3F?style=for-the-badge" alt="Models and pricing"></a>
@@ -15,7 +17,7 @@
 
 ## What AIFast provides
 
-[AIFast](https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=profile-service-intro-en) is an operated AI API gateway for developers and teams. The service states 99% model availability, a catalog of 500+ models, fast and stable calls, direct mainland China access for international models, and business invoices for enterprise customers.
+[AIFast](https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=profile-service-intro-en) is an operated AI API gateway for developers and teams. The service states 99% model availability (operator claim), a catalog of 500+ models, fast and stable calls, direct mainland China access for international models, and business invoices for enterprise customers.
 
 | Need | Start here |
 |:---|:---|

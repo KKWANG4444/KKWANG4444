@@ -17,6 +17,10 @@ jobs:
         run: |
           set -euo pipefail
           test -f README.md
+          grep -Fq '不是本主页或公开边缘探测测得的全模型成功率' README.md
+          grep -Fq 'not a measured result from this repository or an independent SLA' README_EN.md
+          grep -Fq 'not a measured result from this repository or an independent SLA' llms.txt
+          grep -Fq 'not a measured result from this repository or an independent SLA' llms-full.txt
           test -f assets/social-preview.png
           test -f assets/social-preview.svg
           grep -Fq 'https://www.aifast.hk/' README.md
