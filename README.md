@@ -53,7 +53,13 @@ AI快站于 2026-10-14 [公告上架](https://www.aifast.hk/api/status) `gemini-
 
 [用临时、低额度 Key 检测现有接口](https://docs.aifast.hk/model-check/?utm_source=github&utm_medium=profile&utm_campaign=gemini-4-argon-launch&utm_content=profile-readme-zh)，再按实际部署网络分别验证文本、流式与工具调用。
 
-## 最新模型：Claude Sonnet 5.5 与 GPT-6.1 Sol
+## Claude Fable 5.2 已进入 HK 目录（2026-11-10 核验）
+
+精确模型 ID：`claude-fable-5-2`。HK 公开目录声明 Anthropic 与 OpenAI 端点，分组为 `Claude-Code-1/2/3`；账号权限和价格需按当前模型广场核对。目录记录不等于实时生成、SSE 或工具调用实测。
+
+[Fable 5.2 配置与排错](https://docs.aifast.hk/providers/claude-api/?utm_source=github&utm_medium=profile&utm_campaign=fable-5-2&utm_content=profile-setup) · [当前模型与价格](https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=fable-5-2&utm_content=profile-pricing)
+
+## 2026-09-30 模型记录：Claude Sonnet 5.5 与 GPT-6.1 Sol
 
 当前模型 ID：`claude-sonnet-5-5`、`gpt-6.1-sol`。两者均已在 AI快站上架；生产使用前请从模型广场复制精确 ID，并先完成最小请求验证。
 
