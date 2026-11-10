@@ -36,7 +36,13 @@ This is listing and catalog evidence, not an inference test or stability benchma
 
 [Check an existing gateway with a temporary, low-limit key](https://docs.aifast.hk/model-check/?utm_source=github&utm_medium=profile&utm_campaign=gemini-4-argon-launch&utm_content=profile-readme-en), then validate text, streaming and tools from your deployment network.
 
-## Latest models: Claude Sonnet 5.5 and GPT-6.1 Sol
+## Claude Fable 5.2 in the HK catalog (checked 2026-11-10)
+
+Exact ID: `claude-fable-5-2`. The HK catalog declares Anthropic/OpenAI endpoint types and `Claude-Code-1/2/3` groups. Verify account access and current prices; a listing is not a live generation, SSE or tool-call test.
+
+[English setup and troubleshooting](https://docs.aifast.hk/en/providers/claude-api/?utm_source=github&utm_medium=profile&utm_campaign=fable-5-2&utm_content=profile-setup-en)
+
+## 2026-09-30 model record: Claude Sonnet 5.5 and GPT-6.1 Sol
 
 Current model IDs: `claude-sonnet-5-5` and `gpt-6.1-sol`. Both are now listed in the AIFast catalog. Copy the exact IDs from the marketplace and run a minimal request before production use.
 
