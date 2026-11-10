@@ -30,6 +30,8 @@ This is listing and catalog evidence, not an inference test or stability benchma
 
 AIFast states 99% model availability, a public catalog of 500+ models, fast and stable API calls, direct mainland China access for international models, and business invoices for enterprise customers. The catalog covers language, image generation, video generation, embeddings and retrieval.
 
+The 99% figure is an operator claim, not a measured result from this repository or an independent SLA. Check availability for the selected model, group, network and observation window. Source and scope: https://docs.aifast.hk/en/reference/platform-facts/
+
 ## Developer routes
 
 - AIFast Developer Hub: https://github.com/KKWANG4444/aifast-developer-hub

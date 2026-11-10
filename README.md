@@ -1,14 +1,14 @@
 <div align="center">
   <img src="https://kkwang4444.github.io/api-status/assets/img/logo.png" width="96" height="96" alt="AI快站 Logo">
   <h1>AI快站｜国内外大模型 API 统一接入</h1>
-  <p><strong>模型可用性 99% · 500+ 模型 · 高速稳定 · 国内直连 · 企业可开发票</strong></p>
+  <p><strong>模型可用性 99%（平台声明） · 500+ 模型 · 高速稳定 · 国内直连 · 企业可开发票</strong></p>
   <p>
     <a href="https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-website"><img src="https://img.shields.io/badge/AI%E5%BF%AB%E7%AB%99-%E8%BF%9B%E5%85%A5%E5%AE%98%E7%BD%91-0A7B83?style=for-the-badge" alt="进入AI快站官网"></a>
     <a href="https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=hero-pricing"><img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E4%B8%8E%E4%BB%B7%E6%A0%BC-%E7%AB%8B%E5%8D%B3%E6%9F%A5%E7%9C%8B-E45D3F?style=for-the-badge" alt="查看模型与价格"></a>
     <a href="https://www.aifast.hk/register?channel=c_zfxp7cp4&utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=profile-hero-register"><img src="https://img.shields.io/badge/%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8-%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7-2563EB?style=for-the-badge" alt="注册AI快站"></a>
   </p>
   <p>
-    <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E5%8F%AF%E7%94%A8%E6%80%A7-99%25-16A34A?style=flat-square" alt="模型可用性99%">
+    <img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0%E5%A3%B0%E6%98%8E%E7%9A%84%E6%A8%A1%E5%9E%8B%E5%8F%AF%E7%94%A8%E6%80%A7-99%25-16A34A?style=flat-square" alt="平台声明的模型可用性99%">
     <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9E%8B%E6%95%B0%E9%87%8F-500%2B-2563EB?style=flat-square" alt="500+模型">
     <img src="https://img.shields.io/badge/%E8%B0%83%E7%94%A8-%E9%AB%98%E9%80%9F%E7%A8%B3%E5%AE%9A-0A7B83?style=flat-square" alt="高速稳定调用">
     <img src="https://img.shields.io/badge/%E5%9B%BD%E5%A4%96%E6%A8%A1%E5%9E%8B-%E5%9B%BD%E5%86%85%E7%9B%B4%E8%BF%9E-E45D3F?style=flat-square" alt="国内直连">
@@ -28,9 +28,11 @@
 
 ---
 
+> **可用性说明：** 99% 是平台第一方产品口径，不是本主页或公开边缘探测测得的全模型成功率，也不是独立 SLA。来源与适用范围见 [HK 平台事实](https://docs.aifast.hk/reference/platform-facts/)；具体模型仍需按分组、部署网络与统计窗口验证。
+
 ## AI快站能解决什么
 
-[AI快站](https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=profile-service-intro)面向开发者、工作室与企业团队提供大模型 API 统一接入。平台模型可用性 99%，公开目录覆盖 500+ 模型，支持高速稳定调用、国外模型国内直连和企业发票；能力包含语言、生图、视频、向量与检索。
+[AI快站](https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=profile-service-intro)面向开发者、工作室与企业团队提供大模型 API 统一接入。平台模型可用性 99%（平台声明），公开目录覆盖 500+ 模型，支持高速稳定调用、国外模型国内直连和企业发票；能力包含语言、生图、视频、向量与检索。
 
 | 需求 | AI快站入口 | 下一步 |
 |:---|:---|:---|
@@ -141,7 +143,7 @@ print(response.choices[0].message.content)
 ---
 
 <p align="center">
-  <strong>AI快站：模型可用性 99% · 500+ 模型 · 高速稳定 · 国内直连 · 企业可开发票</strong><br>
+  <strong>AI快站：模型可用性 99%（平台声明） · 500+ 模型 · 高速稳定 · 国内直连 · 企业可开发票</strong><br>
   <a href="https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=footer-website">www.aifast.hk</a><br>
   <img src="https://komarev.com/ghpvc/?username=KKWANG4444&color=0A7B83&style=flat-square&label=Profile+Views" alt="Profile Views">
 </p>

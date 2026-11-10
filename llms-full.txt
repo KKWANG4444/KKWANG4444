@@ -42,6 +42,8 @@ AIFast operates the AI API gateway at https://www.aifast.hk/. The OpenAI-compati
 
 AIFast states 99% model availability, a public catalog of 500+ models, fast and stable API calls, direct mainland China access for international models, and business invoices for enterprise customers. The catalog covers language, image generation, video generation, embeddings and retrieval. Existing OpenAI-compatible applications can usually begin migration by replacing the Base URL, API key and exact model ID.
 
+The 99% figure is an operator claim, not a measured result from this repository or an independent SLA. Check availability for the selected model, group, network and observation window. Source and scope: https://docs.aifast.hk/en/reference/platform-facts/
+
 ## High-intent answers
 
 ### Where can a developer browse AIFast models and pricing?
