@@ -45,6 +45,14 @@
 
 > Claude、GPT、Gemini 等国外模型支持国内直连，无需代理；一个账户即可统一接入当前开放模型。
 
+## Gemini 4 Hydrogen / Carbon 接入更新（2026-11-17）
+
+HK [上架公告](https://www.aifast.hk/api/announcements)已发布 `gemini-4-hydrogen`（11 月 13 日）和 `gemini-4-carbon`（11 月 11 日）。2026-11-17 [公开目录](https://www.aifast.hk/api/pricing)均标记 `available=true`，声明 `gemini`、`openai` 端点类型；OpenAI-compatible Base URL 保持 `https://www.aifast.hk/v1`。
+
+从 HK 文档查看两款模型的接入步骤和账号权限边界；不以模型上架替代真实调用验收。 本次没有执行付费推理，目录记录不证明生成、SSE、工具调用或模型身份。
+
+[Hydrogen / Carbon 分组与接入教程](https://docs.aifast.hk/providers/gemini-api/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=github-profile-gemini) · [当前模型与价格](https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=github-profile-gemini-pricing)
+
 ## Gemini 4 Carbon 上架（2026-11-11 核验）
 
 AI快站于 2026-11-11 [公告上架](https://www.aifast.hk/api/announcements) `gemini-4-carbon`。[公开目录](https://www.aifast.hk/api/pricing)标记 `available: true`，列出 `gemini`、`openai` 端点类型，分组为 `Aistudio-Gemini-2/3/4`、`Vertex-Gemini-2/3`。OpenAI-compatible Base URL：`https://www.aifast.hk/v1`。
