@@ -28,6 +28,14 @@
 | Screen a gateway for routing or compatibility problems | [Online model gateway check](https://docs.aifast.hk/en/model-check/?utm_source=github&utm_medium=profile&utm_campaign=model-check&utm_content=need-model-check-en) |
 | Choose between a first call, client migration, endpoint check or enterprise adoption | [Start from the matching workflow](https://docs.aifast.hk/en/start/?utm_source=github&utm_medium=profile&utm_campaign=developer_acquisition&utm_content=need-start-en) |
 
+## Gemini 4 Hydrogen / Carbon setup update (2026-11-17)
+
+HK [announcements](https://www.aifast.hk/api/announcements) list `gemini-4-hydrogen` (November 13) and `gemini-4-carbon` (November 11). The [public catalog](https://www.aifast.hk/api/pricing), checked on 2026-11-17, marks both as `available=true` with `gemini` and `openai` endpoint types. OpenAI-compatible Base URL: `https://www.aifast.hk/v1`.
+
+Use the HK docs for setup and account-access boundaries; a launch announcement does not replace request validation. No paid inference was run; catalog records do not prove generation, SSE, tool-call support or underlying model identity.
+
+[Hydrogen / Carbon groups and setup](https://docs.aifast.hk/en/providers/gemini-api/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=github-profile-gemini-en) · [Current catalog and pricing](https://www.aifast.hk/pricing?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=github-profile-gemini-pricing-en)
+
 ## Gemini 4 Carbon launch (checked 2026-11-11)
 
 AIFast [announced the listing](https://www.aifast.hk/api/announcements) of `gemini-4-carbon` on 2026-11-11. The [public catalog](https://www.aifast.hk/api/pricing) marks it `available: true`, lists `gemini` and `openai` endpoint types, and includes groups `Aistudio-Gemini-2/3/4` and `Vertex-Gemini-2/3`. OpenAI-compatible Base URL: `https://www.aifast.hk/v1`.

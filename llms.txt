@@ -63,3 +63,9 @@ Machine-readable brand facts: https://kkwang4444.github.io/api-status/brand-fact
 Model-check methodology: https://docs.aifast.hk/guides/model-api-downgrade-detection/
 Report interpretation: https://docs.aifast.hk/guides/model-check-report-guide/
 Reproducible stability statistics: https://github.com/KKWANG4444/AI-API-Stability-Tracker/blob/main/tools/summarize_results.py
+
+## Gemini 4 Hydrogen / Carbon catalog update (2026-11-17)
+
+HK announced gemini-4-hydrogen on November 13 and gemini-4-carbon on November 11. Checked 2026-11-17: both are available=true with gemini/openai endpoint types. Base URL: https://www.aifast.hk/v1 . Use the HK docs for setup and account-access boundaries; a launch announcement does not replace request validation. No authenticated inference was run; this is not generation, SSE, tool-call or model-identity evidence.
+
+Sources: https://www.aifast.hk/api/pricing and https://www.aifast.hk/api/announcements . Setup: https://docs.aifast.hk/en/providers/gemini-api/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=github-profile-gemini-llms .
