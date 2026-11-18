@@ -15,6 +15,16 @@
 
 ---
 
+## GPT-6.2 Astra / Sol launch (2026-11-18)
+
+![Model catalog update: 2026-11-18](https://img.shields.io/badge/model_catalog-2026--11--18-blue)
+
+AIFast has added `gpt-6.2-astra` and `gpt-6.2-sol`. The [launch announcement](https://www.aifast.hk/api/announcements) and [public catalog](https://www.aifast.hk/api/pricing) agree: both are marked `available=true` with `openai` and `openai-response` endpoint types. Base URL: `https://www.aifast.hk/v1`.
+
+[OpenAI describes](https://openai.com/index/introducing-gpt-6-2-astra-sol/) Astra as a model for demanding reasoning, coding and professional work, and Sol for everyday coding and agent workflows. Provider capabilities still need separate gateway checks. This update records the launch and catalog; it does not report paid inference or reliability tests.
+
+[Check current models and groups](https://www.aifast.hk/pricing?utm_source=github&utm_medium=repository&utm_campaign=gpt-6-2-launch&utm_content=KKWANG4444) · [Setup guide](https://kkwang4444.github.io/api-status/guide/) · [Catalog evidence](https://kkwang4444.github.io/api-status/data/gpt-6-2.json)
+
 ## What AIFast provides
 
 [AIFast](https://www.aifast.hk/?utm_source=github&utm_medium=profile&utm_campaign=integration-guide&utm_content=profile-service-intro-en) is an operated AI API gateway for developers and teams. The service states 99% model availability (operator claim), a catalog of 500+ models, fast and stable calls, direct mainland China access for international models, and business invoices for enterprise customers.
